@@ -233,9 +233,129 @@
       "note": "Registry review: common-word name"
     },
     {
+      "companyId": "toast",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "harvey",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "harness",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "plane",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "glance",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "g2",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "bureau",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "elastic",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "emergent",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "wiz",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
       "companyId": "ema",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "glean",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "turing",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "sigmoid",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "drivetrain",
+      "aliasesOnly": true,
+      "note": "Common word/person name: match only the specific aliases (live review 2026-11-10)"
+    },
+    {
+      "companyId": "snowflake",
       "caseSensitive": true,
-      "note": "Registry review: avoid EMA (European Medicines Agency / moving average)"
+      "note": "Live review: drop lowercase 'snowflake'/'re-stripe'"
+    },
+    {
+      "companyId": "stripe",
+      "caseSensitive": true,
+      "note": "Live review: drop lowercase 'snowflake'/'re-stripe'"
+    },
+    {
+      "companyId": "stripe",
+      "phrase": "Candy Stripe",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "stripe",
+      "phrase": "Stripe Obituary",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "Snowflake Decoration",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "Snowflake Dinner",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "human snowflake",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "calling me a snowflake",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "Blue Snowflake Symbol",
+      "note": "Live review 2026-11-10"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "record-breaking snowflake",
+      "note": "Live review 2026-11-10"
     }
   ]
 }

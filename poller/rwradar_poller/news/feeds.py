@@ -21,7 +21,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from typing import Any, Iterable
+from typing import Callable, Any, Iterable
 from urllib.parse import parse_qsl, quote, urlencode, urlsplit, urlunsplit
 
 import calendar
@@ -81,7 +81,14 @@ def google_news_url(names: Iterable[str]) -> str:
     return f"{GOOGLE_NEWS_BASE}?q={quote(query)}&{GOOGLE_NEWS_PARAMS}"
 
 
-def google_sources(companies: Iterable[Company], batch: int = config.GOOGLE_NEWS_BATCH) -> list[FeedSource]:
+def google_sources(
+    companies: Iterable[Company],
+    batch: int = config.GOOGLE_NEWS_BATCH,
+    names_for: Callable[[Company], list[str]] | None = None,
+) -> list[FeedSource]:
+    """One Google News source per ``batch`` companies. ``names_for`` picks the query terms per
+    company (default: the name; ``aliasesOnly`` companies use their aliases instead)."""
+    names_for = names_for or (lambda c: [c.name])
     companies = list(companies)
     out: list[FeedSource] = []
     for i in range(0, len(companies), batch):
@@ -90,7 +97,7 @@ def google_sources(companies: Iterable[Company], batch: int = config.GOOGLE_NEWS
             FeedSource(
                 key=f"googlenews-{i // batch + 1}",
                 name="Google News",
-                url=google_news_url(c.name for c in chunk),
+                url=google_news_url(n for c in chunk for n in names_for(c)),
                 google=True,
                 company_ids=tuple(c.id for c in chunk),
             )

@@ -98,8 +98,37 @@ FINANCIALS_RE = re.compile(
     r"|\bturnover\b"
 )
 
+# Headlines that look like funding but aren't (found in the first live run, 2026-11-10):
+# - "secures/bags ... deal|contract|rights" with no funding word: a commercial deal, not a round.
+# - "$100 invested in X 10 years ago would be worth...": stock-return pieces.
+# - "X - Funding Rounds & List of Investors": Tracxn/Crunchbase profile pages.
+_DEAL_WORDS_RE = re.compile(
+    r"\b(?:deal|contract|orders?|naming\s+rights|rights|licen[cs]e|approval|tender|mandate|"
+    r"partnership|lease|project)\b"
+)
+_STRONG_FUNDING_RE = re.compile(
+    r"\bfunding\b|\bround\b|\bseries\s+[a-h]\b|\bseed\b|\binvestment\b|\binvestors?\b|\bcapital\b"
+    r"|\brais(?:e|es|ed|ing)\b|\bfund-?rais\w*"
+)
+_NOT_FUNDING_RE = re.compile(
+    r"\bwould\s+be\s+worth\b|\byears?\s+ago\b|\bworth\s+this\s+much\b"
+    r"|\bfunding\s+rounds\b.*\binvestors\b|\blist\s+of\s+investors\b"
+)
+
+
+def is_funding(text: str) -> bool:
+    """``text`` is a lower-cased, normalized headline."""
+    if not FUNDING_RE.search(text) or _NOT_FUNDING_RE.search(text):
+        return False
+    if _DEAL_WORDS_RE.search(text) and not _STRONG_FUNDING_RE.search(text):
+        return False
+    return True
+
+
 # "X invests in Y", "X-backed Y", "X participates in Y's round": X is the investor, not the raiser.
+# "X boosts/provides funding for Y": X is the lender/funder.
 INVESTOR_RE = re.compile(
+    r"\b(?:boosts|provides|extends|increases|offers)\s+(?:\S+\s+)?funding\s+(?:for|to)\b|"
     rf"\binvest(?:s|ed)?\s+(?:{_MONEY}|in\b)"
     r"|-backed\b|\bbacks\b"
     r"|\bparticipates?\s+in\b"
@@ -123,6 +152,9 @@ def tag(title: str) -> str:
     """Return ``layoffs|acquisition|funding|financials|other`` for a headline."""
     text = normalize_headline(title).lower()
     for key, pattern in RULES:
-        if pattern.search(text):
+        if key == "funding":
+            if is_funding(text):
+                return key
+        elif pattern.search(text):
             return key
     return "other"

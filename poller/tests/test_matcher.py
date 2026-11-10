@@ -153,3 +153,25 @@ def test_repo_blocklist_file_is_valid() -> None:
     bl = Blocklist.load(config.BLOCKLIST_PATH)
     assert config.BLOCKLIST_PATH.exists()
     assert "zeta" in bl.phrases
+
+
+# --- aliasesOnly (added after the first live news run, 2026-11-10) -----------------------------
+
+def _co(cid, name, aliases):
+    from rwradar_poller.models import Company
+    return Company(cid, name, tuple(aliases), "x", "https://x", "lever", cid)
+
+
+def test_aliases_only_ignores_bare_name():
+    from rwradar_poller.news.matcher import Blocklist, Matcher
+    bl = Blocklist.from_data({"rules": [{"companyId": "toast", "aliasesOnly": True}]})
+    m = Matcher([_co("toast", "Toast", ["Toast Inc", "Toasttab"])], bl)
+    assert m.match("Green Goddess Avocado and Smashed White Bean Toast", "other") == []
+    assert m.match("Toast Inc reports Q3 revenue growth", "financials") == ["toast"]
+    assert m.query_names(_co("toast", "Toast", ["Toast Inc", "Toasttab"])) == ["Toast Inc", "Toasttab"]
+
+
+def test_query_names_default_is_name_only():
+    from rwradar_poller.news.matcher import Matcher
+    c = _co("groww", "Groww", ["Nextbillion Technology"])
+    assert Matcher([c]).query_names(c) == ["Groww"]

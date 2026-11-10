@@ -259,3 +259,35 @@ def test_at_least_30_real_headlines_per_tag() -> None:
 )
 def test_tag_rules(headline: str, expected: str) -> None:
     assert tag(headline) == expected
+
+
+# --- False funding tags from the first live run (2026-11-10) -----------------------------------
+import pytest as _pytest  # noqa: E402
+
+from rwradar_poller.news.tagger import tag as _tag  # noqa: E402
+
+
+@_pytest.mark.parametrize("title", [
+    "InMobi secures 30-year naming rights to Bengaluru's Ibbaluru metro station in INR 65 crore deal",
+    "Anthropic secures $3.4 billion generator deal for AI data centers, FT reports",
+    "$100 Invested In Everpure 10 Years Ago Would Be Worth This Much Today",
+    "Meesho - 2026 Funding Rounds & List of Investors",
+])
+def test_live_false_funding_not_tagged(title):
+    assert _tag(title) != "funding"
+
+
+@_pytest.mark.parametrize("title", [
+    "Sarvam secures $41 Mn in Series A funding led by Lightspeed",
+    "Razorpay secures $50 Mn investment for expansion",
+    "OpenAI raises USD 11 billion in latest funding round at USD 1.25 trillion valuation: Report",
+])
+def test_real_funding_still_tagged(title):
+    assert _tag(title) == "funding"
+
+
+def test_lender_is_not_the_raiser():
+    from rwradar_poller.models import Company
+    from rwradar_poller.news.matcher import Matcher
+    m = Matcher([Company("oaknorth", "OakNorth", (), "x", "x", "lever", "o")])
+    assert m.match("OakNorth Boosts Funding for Gold Funding Ltd to Accelerate Bridging Lending Growth", "funding") == []

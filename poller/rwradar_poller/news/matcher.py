@@ -38,6 +38,9 @@ Each rule has ``companyId`` (a registry id, or ``"*"`` for ``newsHash`` rules), 
   ("CRED" matches, "AI cred" does not).
 - ``newsHash`` (40-char hex, the ``news/{hash}`` doc id): never attach this company (or, with
   ``"*"``, any company) to that item. Use it for one-off wrong matches found in the Day-9 review.
+- ``aliasesOnly`` (true): never match the bare ``name``, only the ``aliases`` (e.g. "Toast" is
+  ignored, "Toast Inc" / "Toasttab" match). Google News queries also use the aliases. Use it for
+  companies whose name is a common word or person's name (Toast, Harvey, Plane, Wiz, G2...).
 
 Unknown ``companyId`` values are ignored at run time and reported by ``validate-registry``.
 """
@@ -65,11 +68,12 @@ class BlocklistError(Exception):
 class Blocklist:
     phrases: dict[str, list[str]] = field(default_factory=dict)  # company id -> phrases
     case_sensitive: set[str] = field(default_factory=set)
+    aliases_only: set[str] = field(default_factory=set)
     hashes: dict[str, set[str]] = field(default_factory=dict)  # news hash -> company ids ("*" = all)
 
     @property
     def company_ids(self) -> set[str]:
-        ids = set(self.phrases) | self.case_sensitive
+        ids = set(self.phrases) | self.case_sensitive | self.aliases_only
         for owners in self.hashes.values():
             ids |= owners
         ids.discard("*")
@@ -87,9 +91,9 @@ class Blocklist:
             cid = rule.get("companyId")
             if not isinstance(cid, str) or not cid:
                 raise BlocklistError(f"{where}: companyId must be a non-empty string")
-            kinds = [k for k in ("phrase", "caseSensitive", "newsHash") if k in rule]
+            kinds = [k for k in ("phrase", "caseSensitive", "newsHash", "aliasesOnly") if k in rule]
             if len(kinds) != 1:
-                raise BlocklistError(f"{where}: needs exactly one of phrase / caseSensitive / newsHash")
+                raise BlocklistError(f"{where}: needs exactly one of phrase / caseSensitive / newsHash / aliasesOnly")
             kind = kinds[0]
             if cid == "*" and kind != "newsHash":
                 raise BlocklistError(f'{where}: companyId "*" is only allowed with newsHash')
@@ -102,6 +106,10 @@ class Blocklist:
                 if rule["caseSensitive"] is not True:
                     raise BlocklistError(f"{where}: caseSensitive must be true")
                 bl.case_sensitive.add(cid)
+            elif kind == "aliasesOnly":
+                if rule["aliasesOnly"] is not True:
+                    raise BlocklistError(f"{where}: aliasesOnly must be true")
+                bl.aliases_only.add(cid)
             else:
                 news_hash = rule["newsHash"]
                 if not isinstance(news_hash, str) or not HASH_RE.match(news_hash):
@@ -121,6 +129,13 @@ class Blocklist:
                 raise BlocklistError(f"{path.name}: invalid JSON: {exc}") from exc
 
 
+def match_names(company: Company, blocklist: Blocklist | None = None) -> list[str]:
+    """Names used to match headlines and build Google News queries for this company."""
+    if blocklist is not None and company.id in blocklist.aliases_only:
+        return list(company.aliases)
+    return [company.name, *company.aliases]
+
+
 def _phrase_regex(phrases: Iterable[str], case_sensitive: bool) -> re.Pattern[str] | None:
     parts = sorted({" ".join(p.split()) for p in phrases if p and p.strip()}, key=len, reverse=True)
     if not parts:
@@ -135,11 +150,18 @@ class Matcher:
         self.blocklist = blocklist or Blocklist()
         self._companies: list[tuple[str, re.Pattern[str], re.Pattern[str] | None]] = []
         for company in companies:
-            pattern = _phrase_regex([company.name, *company.aliases], company.id in self.blocklist.case_sensitive)
+            pattern = _phrase_regex(
+                match_names(company, self.blocklist), company.id in self.blocklist.case_sensitive
+            )
             if pattern is None:
                 continue
             blocked = _phrase_regex(self.blocklist.phrases.get(company.id, []), case_sensitive=False)
             self._companies.append((company.id, pattern, blocked))
+
+    def query_names(self, company: Company) -> list[str]:
+        """Google News query terms for ``company``: its name, or its aliases if ``aliasesOnly``."""
+        names = match_names(company, self.blocklist)
+        return names[:1] if company.id not in self.blocklist.aliases_only else names
 
     @staticmethod
     def _funding_window(lower: str) -> tuple[int, int]:

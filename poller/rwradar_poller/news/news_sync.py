@@ -108,7 +108,7 @@ def run_news(
         hashes: dict[str, Any] = dict(index_doc.get("hashes") or {})
         original_hashes = dict(hashes)
         google = should_run_google(index_doc, now, google_mode)
-        sources = list(feeds.DIRECT_FEEDS) + (feeds.google_sources(selected) if google else [])
+        sources = list(feeds.DIRECT_FEEDS) + (feeds.google_sources(selected, names_for=matcher.query_names) if google else [])
         log.info("news: %d sources (google news: %s)", len(sources), "yes" if google else "no")
 
         new_docs: dict[str, dict[str, Any]] = {}

@@ -117,6 +117,12 @@ App tap routing: `type=jobs` opens Company detail → Openings tab and highlight
 - Greenhouse: `/jobs` (master list) + `/departments` (for dept), both of which must succeed. `?content=true` is not used (it can be 2 MB+).
 - News items without a published date use their first-seen time as `publishedAt` and never push. The signal push copy says "1 open role" when N is 1.
 - The same story from several publishers becomes several news items (no cross-source dedupe in the MVP).
+- **News blocklist `aliasesOnly` rule** (`registry/news_blocklist.json`): for companies whose name is a common word or a person's
+  name (Toast, Harvey, Harness, Plane, Glance, G2, Bureau, Elastic, Emergent, Wiz, Ema, Glean, Turing, Sigmoid, Drivetrain), the bare
+  name is never matched; only their aliases are, and Google News queries use the aliases. The first live run matched "Toast" to avocado-toast
+  recipes and "Harvey" to hockey scores. Snowflake and Stripe use `caseSensitive` plus phrase rules instead. Add new risky companies the same way.
+- **Funding tagger guards** (`news/tagger.py` `is_funding`): "secures/bags … deal|contract|rights" with no funding word, "$100 invested … years
+  ago", and "Funding Rounds & List of Investors" profile pages are not funding. "X boosts/provides funding for Y" marks X as the funder.
 - **India-only job filter** (`poller/rwradar_poller/location_filter.py`, on by default, `RWRADAR_INDIA_ONLY=0` disables it):
   only jobs located in India, or remote jobs with a generic location ("Remote", "Anywhere", "APAC"…), are stored and pushed.
   Why: the 100 boards hold ~12.6k jobs but only ~2.3k are India-relevant (e.g. OpenAI 827 jobs, 7 in India), so without the
@@ -176,8 +182,10 @@ Keep this current. One line per milestone, newest last.
   `registry/registry_audit.csv`. Android app done (assembleDebug/Release + 38 unit tests green; Kotlin 2.3.21, AGP 8.13.2,
   Compose BOM 2026.06.01, Firebase BoM 35.1.0). Debug-only Crashlytics test crash: long-press "App version" in Settings.
   Private GitHub repo created and first push made.
-- **Next (owner):** deploy firestore rules + indexes; add the `FIREBASE_SERVICE_ACCOUNT` secret; run the poll-jobs workflow
-  once by hand (seeding run, no pushes); then install the debug APK and test. Replace `OWNER_CONTACT_EMAIL` in
+- 2026-11-10: `FIREBASE_SERVICE_ACCOUNT` secret set. Both poll workflows enabled. Seeding jobs run on Actions: 100/100 companies,
+  2,266 jobs, 0 failures. First news run: 13 sources, 804 matched. A live review found 233 wrong matches (common-word names) and 5 false
+  funding tags. Fixed with `aliasesOnly` + tagger guards, and Firestore was cleaned (571 news items left; only OpenAI/Anthropic are funded).
+- **Next (owner):** deploy firestore rules + indexes (Claude's REST deploy attempt was blocked by permissions), then install the debug APK and test. Replace `OWNER_CONTACT_EMAIL` in
   `app/src/main/res/values/strings.xml` and `docs/privacy.md`.
 - **Known open items:** risky common-word company names (Plane, Glance, Toast, Harness, G2, Bureau…) have blocklist
   phrases, but the Day-9 manual news review is still needed. Actions minutes on a private repo (see §7).

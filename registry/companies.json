@@ -444,7 +444,8 @@
     "name": "Emergent",
     "aliases": [
       "Emergent Labs",
-      "Emergent.sh"
+      "Emergent.sh",
+      "Emergent AI"
     ],
     "sector": "AI",
     "website": "https://emergent.sh",
@@ -527,7 +528,8 @@
     "id": "glance",
     "name": "Glance",
     "aliases": [
-      "Glance InMobi"
+      "Glance InMobi",
+      "InMobi's Glance"
     ],
     "sector": "Consumer",
     "website": "https://glance.com",
@@ -626,7 +628,8 @@
     "id": "harvey",
     "name": "Harvey",
     "aliases": [
-      "Harvey AI"
+      "Harvey AI",
+      "Harvey legal AI"
     ],
     "sector": "AI",
     "website": "https://www.harvey.ai",
@@ -1136,7 +1139,8 @@
     "name": "Toast",
     "aliases": [
       "Toast Inc",
-      "Toasttab"
+      "Toasttab",
+      "Toast POS"
     ],
     "sector": "SaaS",
     "website": "https://pos.toasttab.com",
@@ -1253,7 +1257,8 @@
     "name": "Wiz",
     "aliases": [
       "Wiz Inc",
-      "Wiz.io"
+      "Wiz.io",
+      "Google's Wiz"
     ],
     "sector": "Security",
     "website": "https://www.wiz.io",
