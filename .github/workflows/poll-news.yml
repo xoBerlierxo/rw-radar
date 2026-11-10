@@ -1,0 +1,51 @@
+name: poll-news
+
+on:
+  schedule:
+    - cron: "13,43 * * * *" # every 30 min; Google News runs on every 2nd run (see news_sync.py)
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = normal; no-push = write Firestore but send no pushes; dry-run = no writes, no pushes"
+        type: choice
+        options: [run, no-push, dry-run]
+        default: run
+      google_news:
+        description: "auto = every 2nd run; always/never to override"
+        type: choice
+        options: [auto, always, never]
+        default: auto
+
+concurrency:
+  group: poll-news
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: poller/requirements.txt
+      - run: pip install -r poller/requirements.txt
+      - name: Poll news feeds
+        working-directory: poller
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          RWRADAR_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          # Repo variable; set it to 1 to copy every push to the debug_all topic. Must be off before Day 13.
+          RWRADAR_DEBUG_ALL_TOPIC: ${{ vars.RWRADAR_DEBUG_ALL_TOPIC }}
+          MODE: ${{ inputs.mode || 'run' }}
+          GOOGLE_NEWS: ${{ inputs.google_news || 'auto' }}
+        run: |
+          args=(news --google-news "$GOOGLE_NEWS")
+          if [ "$MODE" = "no-push" ]; then args+=(--no-push); fi
+          if [ "$MODE" = "dry-run" ]; then args+=(--dry-run); fi
+          python -m rwradar_poller "${args[@]}"

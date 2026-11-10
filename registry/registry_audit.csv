@@ -1,0 +1,101 @@
+id,company,ats,token,http_status,total_jobs,india_jobs,remote_open_jobs,india_non_senior,india_tech,latest_posting,india_founded,sector,kept,sample_india_title_1,sample_india_title_2,sample_india_title_3
+100ms,100ms,lever,100ms,200,10,10,0,5,6,2026-11-04,yes,DevTools,yes,AI Engineer – AI Agents (Healthcare),Benefit Verification Specialist - AI Agents (Healthcare),HR Intern - Talent Acquisition
+acceldata,Acceldata,lever,acceldata,200,38,16,0,2,13,2026-11-06,yes,Data/Analytics,yes,Accountant / Senior Accountant - US Accounting,Principal Engineer - Open Source Data Platform (ODP),Sales Development Representative | Enterprise (US Time Zone)
+addepar,Addepar,greenhouse,addepar1,200,116,19,0,7,11,2026-11-10,no,Fintech,yes,ADM Support Analyst,ADM Support Analyst,Data Client Support Analyst
+agoda,Agoda,greenhouse,agoda,200,358,11,0,3,4,2026-11-09,no,Travel,yes,Associate Talent Sourcer (Pune Based),Backend Engineer Manager (Gurugram based),"Customer Service, Escalation - Team Manager (Hindi)"
+airbnb,Airbnb,greenhouse,airbnb,200,205,9,2,1,3,2026-11-10,no,Travel,yes,"Emergency Response Manager, APAC","Lead Advanced Analytics, Community Support","Senior Analyst, Advanced Analytics - Gurugram"
+airwallex,Airwallex,ashby,airwallex,200,490,8,0,7,0,2026-11-10,no,Fintech,yes,"Associate Account Executive, AMER Region","Manager, Revenue Enablement","Inbound Sales Representative, SME & Growth, AMER"
+anthropic,Anthropic,greenhouse,anthropic,200,676,6,0,2,4,2026-11-10,no,AI,yes,Applied AI Architect,Applied AI Architect,Applied AI Architect ( Global Customers)
+apollo-io,Apollo.io,greenhouse,apolloio,200,47,6,0,0,3,2026-11-03,no,SaaS,yes,"Account Executive / Account Manager, MM (India)","Account Executive / Account Manager, SMB (India)","Sales Manager, SMB & MM (India)"
+appian,Appian,greenhouse,appian,200,159,14,0,3,7,2026-11-10,no,SaaS,yes,Career Manager,Compensation Analyst III,"Director, Platform Engineering (Product Management)"
+aspora,Aspora,ashby,aspora,200,11,5,0,3,2,2026-10-31,yes,Fintech,yes,Staff Engineer,Engineering Leader,Personal Banking Manager
+atlan,Atlan,ashby,atlan,200,7,4,0,1,3,2026-11-09,yes,Data/Analytics,yes,AI Native Builder/Architect,Business Development Representative,Principal Software Engineer - Agent & App Platform
+atlys,Atlys,ashby,atlys,200,26,25,0,16,5,2026-11-06,yes,Travel,yes,Social Media Manager,Program Manager,Fulfilment Intern
+bolna,Bolna,ashby,bolna,200,6,6,0,4,3,2026-11-04,yes,AI,yes,AI Solutions Engineer,Conversation Quality Analyst,Enterprise Lead
+bureau,Bureau,ashby,bureau,200,18,17,1,4,12,2026-11-04,yes,Security,yes,Senior Android Engineer,Product Manager (Transaction Monitoring),Senior DevOps Engineer
+celonis,Celonis,greenhouse,celonis,200,241,26,0,8,22,2026-11-10,no,Data/Analytics,yes,AI Quality Engineer,Applied Value Engineer,Applied Value Engineer | Healthcare & Lifesciences - NAM
+clickhouse,ClickHouse,ashby,clickhouse,200,200,10,0,4,6,2026-11-10,no,Data/Analytics,yes,Partner Sales Director-India/ASEAN,Senior Consulting Engineer - India,Senior Software Engineer - Identity & Authorization Platform
+cloudsek,CloudSEK,greenhouse,cloudsek,200,18,13,3,8,8,2026-11-03,yes,Security,yes,Customer Threat Advisor (Offensive),Cyber Security GTM Enablement Lead (Product-Led),Director/AVP - HR
+coderabbit,CodeRabbit,ashby,coderabbit,200,50,4,3,1,4,2026-11-10,yes,DevTools,yes,Product Manager: Console,Product Manager: Security,GTM Data Quality Analyst
+coinbase,Coinbase,greenhouse,coinbase,200,285,11,0,5,8,2026-11-09,no,Fintech,yes,Customer Support Specialist II,Customer Support Specialist II,Machine Learning Engineer
+commerceiq,CommerceIQ,greenhouse,commerceiq,200,17,8,0,2,5,2026-11-05,yes,E-commerce,yes,Data Scientist II,"Director, Finance",Machine Learning Engineer III
+composio,Composio,ashby,composio,200,31,4,0,2,3,2026-10-30,yes,AI,yes,Member of Technical Staff - Enterprise Platform,Member Technical Staff - Applied AI Engineer (US Timing),Product  Ops Intern
+coupa,Coupa,lever,coupa,200,47,15,0,5,14,2026-11-09,no,SaaS,yes,AI Engineer - 11927,AI Engineer - 11967,AI Engineer - P
+cred,CRED,lever,cred,200,14,14,0,7,3,2026-11-05,yes,Fintech,yes,accounts payable manager,area collections manager chennai- flows,area collections manager hyderabad -flows
+databricks,Databricks,greenhouse,databricks,200,916,89,0,9,66,2026-11-10,no,Data/Analytics,yes,Account Executive,Credit and Collections Manager,Deployment Strategist
+datadog,Datadog,greenhouse,datadog,200,396,8,0,6,1,2026-11-10,no,DevTools,yes,Commercial Account Executive,Commercial Sales Engineer,Customer Success Associate (Commercial Accounts)
+devrev,DevRev,greenhouse,devrev,200,40,18,0,14,11,2026-09-23,yes,SaaS,yes,Account Executive – Field Sales,Account Executive – Field Sales,Account Executive : Field Sales - Delhi NCR
+dexcare,DexCare,lever,dexcarehealth,200,5,5,0,2,3,2026-11-04,no,HealthTech,yes,"Administrative Assistant, Executive",ML Engineer - II,Senior ML Engineer
+doordash,DoorDash,greenhouse,doordashindia,200,12,12,0,6,7,2026-11-03,no,Consumer,yes,"Associate, Corporate Safety and Security","Associate Manager, Forecasting",Global Benefits Specialist (Fixed Term Contract)
+dozee,Dozee,lever,dozee,200,19,15,0,5,4,2026-11-04,yes,HealthTech,yes,Area Sales Manager,Area Sales Manager,Area Sales Manager
+drivetrain,Drivetrain,lever,drivetrain,200,35,22,0,17,15,2026-10-14,yes,SaaS,yes,Associate - Growth Marketing,Associate - Product Marketing,Backend Engineer
+druva,Druva,greenhouse,druva,200,27,10,0,1,8,2026-11-03,yes,Security,yes,Customer Success Manager,Sales Engineer,Senior Professional Services Consultant
+elastic,Elastic,greenhouse,elastic,200,427,17,0,7,8,2026-11-10,no,Data/Analytics,yes,AI Tool Admin,"Business Analyst, Marketing-1 (Fixed Term)",Consulting Architect - Observability
+elevenlabs,ElevenLabs,ashby,elevenlabs,200,129,8,1,6,0,2026-11-10,no,AI,yes,Account Manager - India,"Account Executive, Mid Market - India",Transcription / Subtitling Specialist (Freelance)
+ema,Ema,ashby,ema,200,39,15,0,9,12,2026-11-05,yes,AI,yes,Solutions Architect,Product designer,Devops Engineer
+emergent,Emergent,greenhouse,emergentlabsinc,200,51,46,0,23,18,2026-10-30,yes,AI,yes,Account Executive - SMB,AI Analyst - Business Analytics and Product Intelligence,AI Filmmaker
+everpure,Everpure,greenhouse,purestorage,200,372,63,0,22,35,2026-11-10,no,Cloud,yes,Acquisition Administrator (Bangalore),Acquisition Administrator (Bangalore),Business Intelligence Analyst - Tableau & SQL
+fampay,FamPay,lever,fampay,200,17,17,0,8,8,2026-11-04,yes,Fintech,yes,Assistant Manager(Controllership),Brand Marketing Manager,Business & Partnerships Associate
+fivetran,Fivetran,greenhouse,fivetran,200,171,20,3,0,17,2026-11-09,no,Data/Analytics,yes,"Manager, Software Engineering",Senior Financial Systems Analyst,Senior International Accountant
+g2,G2,ashby,g2,200,47,21,0,12,7,2026-11-05,no,SaaS,yes,Account Executive (Future Opportunities),Account Manager (Future Opportunities),Senior AEO/SEO Specialist
+gitlab,GitLab,greenhouse,gitlab,200,254,34,5,10,25,2026-11-10,no,DevTools,yes,Benefits Analyst,"Director of Recruiting, Engineering & IT, Bangalore India","Director, Support (Bengaluru)"
+glance,Glance,greenhouse,glance,200,35,22,0,6,18,2026-11-05,yes,Consumer,yes,Applied Scientist III - Recommendations,Applied Scientist III - Recommendation Systems,Applied Scientist II - Recommendation
+glean,Glean,greenhouse,gleanwork,200,123,21,0,11,18,2026-11-04,no,AI,yes,Accountant,AI Data Analyst,AI Success Manager (US East Customer Hours)
+graviton,Graviton Research Capital,greenhouse,gravitonresearchcapital,200,21,12,0,11,9,2026-10-19,yes,Fintech,yes,Application Reliability Engineer,Data Center Engineer,Machine Learning Researcher
+groww,Groww,greenhouse,groww,200,9,9,0,6,1,2026-10-14,yes,Fintech,yes,Assistant Manager - Internal Audit,Associate - Content (Digest),Creative Illustrator
+gushwork,Gushwork,lever,gushwork,200,12,8,0,4,2,2026-11-09,yes,AI,yes,Account Executive - US Sales,Account Manager-  US Sales,Customer Success Manager
+hackerrank,HackerRank,greenhouse,hackerrank,200,29,17,0,10,15,2026-10-28,yes,DevTools,yes,AI Researcher Intern,Creative Content Lead,"Customer Experience Engineer, L1"
+harness,Harness,greenhouse,harnessinc,200,68,15,0,1,12,2026-11-06,no,DevTools,yes,"Engineering Manager, Software Engineering - CD",Manager People Operations,"Manager, Software Engineer - CD."
+harvey,Harvey,ashby,harvey,200,376,9,0,1,7,2026-11-10,no,AI,yes,"Staff Software Engineer, Core Infrastructure","Senior Software Engineer, Backend","Senior Staff Software Engineer, Backend"
+headout,Headout,ashby,headout,200,27,13,0,4,8,2026-11-03,yes,Travel,yes,Scriptwriter (YouTube),Engineering Manager,Analytics Manager
+hevo-data,Hevo Data,lever,hevodata,200,41,40,0,16,20,2026-10-15,yes,Data/Analytics,yes,Account Executive,Associate Account Executive (SMB - US),Associate Customer Experience Engineer
+highlevel,HighLevel,lever,gohighlevel,200,105,78,0,13,66,2026-11-04,no,SaaS,yes,Customer Support Apprentice,Director of Engineering - Marketplace,"Director, SDET"
+highradius,HighRadius,greenhouse,highradius,200,69,46,0,26,20,2026-11-10,yes,Fintech,yes,Agent Developer Test III,Agent Product Builder,Agent Product Builder
+imc-trading,IMC Trading,greenhouse,imc,200,158,16,0,14,10,2026-11-09,no,Fintech,yes,Business Strategist,Connect with us at ICLR 2026!,C++ Software Engineer
+inmobi,InMobi,greenhouse,inmobi,200,79,52,0,5,21,2026-11-05,yes,Media,yes,Account Manager - Microsoft Advertising,Account Manager - Performance Marketing - Search Ads,Analyst
+level-ai,Level AI,ashby,level-ai,200,18,13,0,2,11,2026-10-15,yes,AI,yes,Principal Machine Learning Engineer,"Senior Site Reliability Engineer (Remote, India) EST",Senior Machine Learning Engineer (Bangalore/Noida Location)
+meesho,Meesho,lever,meesho,200,50,50,0,2,20,2026-11-04,yes,E-commerce,yes,AM/ Manager - Risk & Decision Science,AM/M - Risk Analytics - User Lending,Assistant Manager - Business Finance | CA pass -out 2026
+mem0,Mem0,ashby,mem0,200,1,1,0,0,0,2026-11-03,yes,AI,yes,SEO/ AEO Lead,,
+mindtickle,Mindtickle,lever,mindtickle,200,20,18,0,8,13,2026-11-05,yes,SaaS,yes,"Account Executive, Commercial [NAMER]",AI Product Engineer,Customer Success Engineer - II
+mongodb,MongoDB,greenhouse,mongodb,200,373,75,0,22,39,2026-11-10,no,DevTools,yes,Account Development Representative,Account Development Representative,Application Engineer
+netomi,Netomi,lever,netomi,200,20,9,0,5,9,2026-10-30,yes,AI,yes,Agentic Engineer Level II/III,Agentic Product Manager,Data Engineer I
+nium,Nium,lever,nium,200,28,11,0,2,5,2026-11-09,yes,Fintech,yes,Consultant - Compliance Quality Assurance,Consultant - Payment Operations,Director - Financial Reporting (Record-to-Report)
+oaknorth,OakNorth,ashby,oaknorth,200,27,13,0,6,2,2026-11-10,no,Fintech,yes,AVP - Legal - Transaction & Execution Management,Assistant Manager - Controllership,Industrial Training - Finance (Regulatory Reporting)
+observe-ai,Observe.AI,greenhouse,observeai,200,12,6,0,3,4,2026-11-04,yes,AI,yes,AI Agent Engineer,"Director, Accounting",GSI Partner Lead
+okta,Okta,greenhouse,okta,200,376,104,0,12,88,2026-11-10,no,Security,yes,AP & Expenses Projects Analyst,"Business Systems Analyst, ServiceNow",Commercial Account Executive
+openai,OpenAI,ashby,openai,200,827,7,0,2,3,2026-11-10,no,AI,yes,"Account Director, Digital Natives",Applied AI Architect,"Applied AI Engineer, Partner - AWS"
+paytm,Paytm,lever,paytm,200,201,191,0,99,35,2026-11-10,yes,Fintech,yes,Account Executive/ Director - AI Agentic Enterprise Sales,"AM/Manager– Procurement (Admin, Real Estate & HR)",Analytics Lead - UPI Product | Experience : 7-9 yrs
+plane,Plane,ashby,plane,200,34,11,0,6,9,2026-10-30,yes,DevTools,yes,Product Marketing Manager,"Software Engineer, Backend (Node.js)",Senior Content Marketer
+pocket-fm,Pocket FM,lever,pocketfm,200,14,2,0,0,0,2026-11-04,yes,Media,yes,Director - Analytics,Manager - Business Finance,
+razorpay,Razorpay,greenhouse,razorpaysoftwareprivatelimited,200,25,22,0,3,13,2026-11-10,yes,Fintech,yes,AI Builder (Senior Product Designer),"Analyst, Banking Alliances","Associate Manager, AEO"
+roblox,Roblox,greenhouse,roblox,200,273,11,5,6,4,2026-11-10,no,Gaming,yes,"Communications Manager, India","Lead, Support Operations Excellence","Manager, Product Support Incident Management"
+rubrik,Rubrik,greenhouse,rubrik,200,149,29,3,9,19,2026-11-09,no,Security,yes,Customer Resilience Manager,Customer Success Manager - Growth and Retention,Database Reliability Engineer/Database Engineer (Rubrik Security Cloud Platform)
+safe-security,Safe Security,lever,safe,200,21,16,0,10,13,2026-11-10,yes,Security,yes,Engineering Manager,Principal Engineer - AI,SDE II - AI Platform
+sahaj,Sahaj Software,greenhouse,sahajsoftware,200,16,12,0,2,12,2026-11-05,yes,IT Services,yes,Data Scientist,Data Scientist,Lead Data Engineer
+sarvam,Sarvam AI,ashby,sarvam,200,47,47,0,28,35,2026-11-04,yes,AI,yes,"Engagement Manager, Chanakya","Data Scientist - Evaluations, Chanakya","Embedded Data Scientist, Chanakya"
+sigmoid,Sigmoid,greenhouse,sigmoid,200,43,38,0,12,13,2026-11-10,yes,Data/Analytics,yes,Assistant Manager - Travel,Associate Director - Account Management,Associate Director - Delivery
+signoz,SigNoz,ashby,signoz,200,13,12,0,4,7,2026-10-15,yes,DevTools,yes,ex-Founders,Staff Software Engineer - Frontend,AI GTM Engineer
+simpplr,Simpplr,greenhouse,simpplr,200,5,4,0,0,3,2026-10-15,yes,SaaS,yes,Associate Product Manager - Product Discovery & Strategy,Information Security Manager,Lead Voice AI Engineer
+smallest-ai,Smallest.ai,ashby,smallest,200,3,3,0,1,1,2026-10-22,yes,AI,yes,Senior SDET,Manager - Finance and Accounts,Software Engineer - Systems and Reliablity
+snowflake,Snowflake,ashby,snowflake,200,373,11,0,3,7,2026-11-10,no,Data/Analytics,yes,Senior Solution Engineer,Solution Engineer - GCC (FSI),Senior Auditor - IT
+spotdraft,SpotDraft,ashby,spotdraft,200,16,11,0,2,4,2026-11-05,yes,SaaS,yes,Software Development Engineer III | Backend,Senior Sales Development Representative - APAC,Account Executive - APAC
+squarepoint,Squarepoint Capital,greenhouse,squarepointcapital,200,90,22,0,16,13,2026-11-05,no,Fintech,yes,Desk Quant Analyst,Finance Analyst – General Ledger,Finance Data Analyst
+stable-money,Stable Money,lever,stable-money1,200,12,12,0,10,2,2026-10-29,yes,Fintech,yes,AI Product Builder,APM - Platform Products,Business Associate - FD
+stripe,Stripe,greenhouse,stripe,200,773,43,6,27,18,2026-11-10,no,Fintech,yes,AR Analyst,Bridge Product Accountant,Corporate Accounting Analyst (Bangalore)
+sumo-logic,Sumo Logic,greenhouse,sumologic,200,19,9,0,1,7,2026-11-09,no,DevTools,yes,Principal Product Manager,Principal Product Manager,Senior Site Reliability Engineer - I
+tekion,Tekion,ashby,tekion,200,90,66,0,7,59,2026-11-09,yes,SaaS,yes,"Manager, Engineering - BE",Manager / Sr. Manager AI,Associate Principal Graphic Designer
+toast,Toast,greenhouse,toast,200,331,23,4,2,15,2026-11-10,no,SaaS,yes,Associate of R&D Strategic Finance (FP&A),"Credit Risk Senior Analyst - CECL Reporting, Loss Forecasting",Engineering Manager II
+together-ai,Together AI,greenhouse,togetherai,200,80,6,2,4,5,2026-11-10,no,AI,yes,AI Infrastructure System Engineer,"Senior  or Staff Software Engineer, Inference / Compute Infrastructure Engineering",Senior Software Engineer — Infra Agent Systems Remote India
+tower-research,Tower Research Capital,greenhouse,towerresearchcapital,200,91,10,0,7,8,2026-11-09,no,Fintech,yes,HR Intern,Information Security Engineer III,Low Latency Developer
+truecaller,Truecaller,greenhouse,truecaller,200,35,17,0,0,11,2026-11-05,no,Consumer,yes,Ads Strategy Manager – Pricing & Revenue,Director Of Engineering,Engineering Manager - Infrastructure
+truefoundry,TrueFoundry,greenhouse,truefoundry,200,19,7,0,2,5,2026-11-06,yes,AI,yes,Backend Interns,Frontend Intern,GRC Lead
+turing,Turing,greenhouse,turing,200,47,8,0,6,6,2026-11-09,yes,AI,yes,Forward-Deployed AI Engineer,Forward-Deployed AI Engineer,Growth Analyst (Paid Acquisition)
+twilio,Twilio,greenhouse,twilio,200,127,15,0,9,10,2026-11-08,no,DevTools,yes,Applications Engineer 2,HR Partner,Onboarding Operations Specialist 1
+uipath,UiPath,ashby,uipath,200,100,9,0,1,6,2026-11-10,no,AI,yes,"Principal Expert, US Insurance Industry","Manager, Renewals -APAC",Senior Renewals Specialist (Thai Speaking)
+valgenesis,ValGenesis,lever,valgenesis,200,10,10,0,2,10,2026-09-29,no,HealthTech,yes,Calling all Software Engineers!,"Lead Software Engineer, Data Engineering","Platform Product Manager, AI/ML"
+wiz,Wiz,greenhouse,wizinc,200,113,9,0,6,2,2026-11-10,no,Security,yes,Enterprise Account Executive - West India,Enterprise Account Manager - North India,"Majors Account Executive - Conglomerates, West India"
+yugabyte,Yugabyte,greenhouse,yugabyte,200,14,3,0,1,3,2026-11-06,yes,DevTools,yes,Sr Software Engineer,Staff Engineer,Technical Support Engineer APJ
+zenoti,Zenoti,greenhouse,zenoti,200,58,35,0,3,26,2026-11-06,yes,SaaS,yes,Director -  Product Management (Payments/Fintech),"Lead - AI Data Intelligence (ETL,Azure, SQL, Python, Spark, Data Lakehouse) 7 - 11 years exp from SaaS companies",Lead - Customer Success(7 to 14 years) - SaaS Companies only
+zeta,Zeta,lever,zeta,200,28,23,0,7,9,2026-11-02,yes,Fintech,yes,Analyst II - SIEM/SecOps,Associate Director - Legal,DevSecOps Engineer II
+zinnov,Zinnov,greenhouse,zinnov,200,30,29,0,11,4,2026-10-26,yes,Consulting,yes,Agent / AI Engineer,Associate Director - Employer Branding,Associate Director - People Success Partner
+zscaler,Zscaler,greenhouse,zscaler,200,376,90,0,16,66,2026-11-10,no,Security,yes,Account Executive -  Commercial,Account Executive- Commercial,Account Executive - Majors

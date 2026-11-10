@@ -1,0 +1,38 @@
+rules_version = '2';
+// RW Radar security rules (PLAN §5.2, CLAUDE.md §4).
+// The poller uses the Admin SDK, which bypasses these rules, so "all other writes only from the
+// poller's service account" holds by denying every client write except users/{uid}.
+service cloud.firestore {
+  match /databases/{db}/documents {
+
+    match /companies/{id} {
+      allow read: if true;
+      allow write: if false;
+      match /jobs/{jobId} {
+        allow read: if true;
+        allow write: if false;
+      }
+    }
+
+    match /directory/{id} { allow read: if true;  allow write: if false; }
+    match /news/{id}      { allow read: if true;  allow write: if false; }
+
+    // users/{uid}: readable and writable only by that uid, with a constrained shape.
+    match /users/{uid} {
+      function isOwner() {
+        return request.auth != null && request.auth.uid == uid;
+      }
+      function validUser(d) {
+        return d.keys().hasOnly(['follows', 'families', 'notifPrefs', 'createdAt'])
+          && (!('follows' in d) || (d.follows is list && d.follows.size() <= 200))
+          && (!('families' in d) || (d.families is list && d.families.size() <= 6))
+          && (!('notifPrefs' in d) || d.notifPrefs is map);
+      }
+      allow read, delete: if isOwner();
+      allow create, update: if isOwner() && validUser(request.resource.data);
+    }
+
+    match /pollerRuns/{id} { allow read, write: if false; }
+    match /meta/{doc}      { allow read, write: if false; }
+  }
+}

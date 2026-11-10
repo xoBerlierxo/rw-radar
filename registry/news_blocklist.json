@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "_format": "See poller/rwradar_poller/news/matcher.py (module docstring). Each rule: companyId + exactly one of phrase | caseSensitive | newsHash, optional note.",
+  "rules": [
+    {
+      "companyId": "zeta",
+      "caseSensitive": true,
+      "note": "Spike: 'ZETA' is Zeta Global's NYSE ticker; the Bengaluru company is written Zeta"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta Global",
+      "note": "Spike: US adtech (NYSE:ZETA), not Zeta (Bengaluru banking tech)"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta-Jones",
+      "note": "Spike: Catherine Zeta-Jones"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta Beta Tau",
+      "note": "Spike: US fraternity"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta Network",
+      "note": "Spike: Zeta Network Group (NASDAQ)"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta Stock",
+      "note": "Spike: Zeta Global stock coverage"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "Zeta National Educational Foundation",
+      "note": "Spike: unrelated US non-profit"
+    },
+    {
+      "companyId": "cred",
+      "caseSensitive": true,
+      "note": "Spike: 'AI cred', 'Eagle Point Cred'; the company is always written CRED"
+    },
+    {
+      "companyId": "cred",
+      "phrase": "Eagle Point Cred",
+      "note": "Spike: US closed-end fund filings"
+    },
+    {
+      "companyId": "cred",
+      "phrase": "ASX:CRED",
+      "note": "Spike: Australian bond ETF ticker"
+    },
+    {
+      "companyId": "atlan",
+      "phrase": "Marine Atlan",
+      "note": "Spike: French film director"
+    },
+    {
+      "companyId": "plane",
+      "phrase": "plane crash",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "plane",
+      "phrase": "plane ticket",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "plane",
+      "phrase": "fighter plane",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "plane",
+      "phrase": "Air India plane",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "plane",
+      "phrase": "plane carrying",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "glance",
+      "phrase": "at a glance",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "glance",
+      "phrase": "glance at",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "toast",
+      "phrase": "raise a toast",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "toast",
+      "phrase": "toast to",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harness",
+      "phrase": "harness the",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harness",
+      "phrase": "harnessing",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harness",
+      "phrase": "safety harness",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "glean",
+      "phrase": "glean insights",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "glean",
+      "phrase": "gleaned from",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "elastic",
+      "phrase": "elastic band",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "elastic",
+      "phrase": "price elastic",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harvey",
+      "phrase": "Harvey Weinstein",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harvey",
+      "phrase": "Hurricane Harvey",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "harvey",
+      "phrase": "Steve Harvey",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "turing",
+      "phrase": "Alan Turing",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "turing",
+      "phrase": "Turing Award",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "turing",
+      "phrase": "Turing test",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "emergent",
+      "phrase": "emergent behaviour",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "emergent",
+      "phrase": "emergent behavior",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "emergent",
+      "phrase": "emergent threat",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "bureau",
+      "phrase": "Central Bureau",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "bureau",
+      "phrase": "Federal Bureau",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "bureau",
+      "phrase": "Bureau of",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "bureau",
+      "phrase": "credit bureau",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "bureau",
+      "phrase": "Enforcement Bureau",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "g2",
+      "phrase": "G2 visa",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "g2",
+      "phrase": "G2 Esports",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "sigmoid",
+      "phrase": "sigmoid function",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "zeta",
+      "phrase": "zeta function",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "snowflake",
+      "phrase": "snowflake generation",
+      "note": "Registry review: common-word name"
+    },
+    {
+      "companyId": "ema",
+      "caseSensitive": true,
+      "note": "Registry review: avoid EMA (European Medicines Agency / moving average)"
+    }
+  ]
+}

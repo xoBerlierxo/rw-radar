@@ -1,0 +1,1332 @@
+[
+  {
+    "id": "100ms",
+    "name": "100ms",
+    "aliases": [
+      "100ms.live"
+    ],
+    "sector": "DevTools",
+    "website": "https://www.100ms.live",
+    "ats": {
+      "type": "lever",
+      "token": "100ms"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "acceldata",
+    "name": "Acceldata",
+    "aliases": [
+      "Acceldata.io"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://www.acceldata.io",
+    "ats": {
+      "type": "lever",
+      "token": "acceldata"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "addepar",
+    "name": "Addepar",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://addepar.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "addepar1"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "agoda",
+    "name": "Agoda",
+    "aliases": [],
+    "sector": "Travel",
+    "website": "https://www.agoda.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "agoda"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "aliases": [],
+    "sector": "Travel",
+    "website": "https://www.airbnb.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "airbnb"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "airwallex",
+    "name": "Airwallex",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://www.airwallex.com",
+    "ats": {
+      "type": "ashby",
+      "token": "airwallex"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://www.anthropic.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "anthropic"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "apollo-io",
+    "name": "Apollo.io",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.apollo.io",
+    "ats": {
+      "type": "greenhouse",
+      "token": "apolloio"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "appian",
+    "name": "Appian",
+    "aliases": [
+      "Appian Corporation"
+    ],
+    "sector": "SaaS",
+    "website": "https://appian.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "appian"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "aspora",
+    "name": "Aspora",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://www.aspora.com",
+    "ats": {
+      "type": "ashby",
+      "token": "aspora"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "atlan",
+    "name": "Atlan",
+    "aliases": [
+      "Atlan HQ"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://atlan.com",
+    "ats": {
+      "type": "ashby",
+      "token": "atlan"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "atlys",
+    "name": "Atlys",
+    "aliases": [],
+    "sector": "Travel",
+    "website": "https://www.atlys.com",
+    "ats": {
+      "type": "ashby",
+      "token": "atlys"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "bolna",
+    "name": "Bolna",
+    "aliases": [
+      "Bolna AI",
+      "Bolna.ai"
+    ],
+    "sector": "AI",
+    "website": "https://www.bolna.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "bolna"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "bureau",
+    "name": "Bureau",
+    "aliases": [
+      "Bureau.id",
+      "Bureau ID"
+    ],
+    "sector": "Security",
+    "website": "https://www.bureau.id",
+    "ats": {
+      "type": "ashby",
+      "token": "bureau"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "celonis",
+    "name": "Celonis",
+    "aliases": [],
+    "sector": "Data/Analytics",
+    "website": "https://www.celonis.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "celonis"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "aliases": [],
+    "sector": "Data/Analytics",
+    "website": "https://clickhouse.com",
+    "ats": {
+      "type": "ashby",
+      "token": "clickhouse"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "cloudsek",
+    "name": "CloudSEK",
+    "aliases": [],
+    "sector": "Security",
+    "website": "https://www.cloudsek.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "cloudsek"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "coderabbit",
+    "name": "CodeRabbit",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://www.coderabbit.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "coderabbit"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://www.coinbase.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "coinbase"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "commerceiq",
+    "name": "CommerceIQ",
+    "aliases": [],
+    "sector": "E-commerce",
+    "website": "https://www.commerceiq.ai",
+    "ats": {
+      "type": "greenhouse",
+      "token": "commerceiq"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "composio",
+    "name": "Composio",
+    "aliases": [
+      "Composio.dev"
+    ],
+    "sector": "AI",
+    "website": "https://composio.dev",
+    "ats": {
+      "type": "ashby",
+      "token": "composio"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "coupa",
+    "name": "Coupa",
+    "aliases": [
+      "Coupa Software"
+    ],
+    "sector": "SaaS",
+    "website": "https://www.coupa.com",
+    "ats": {
+      "type": "lever",
+      "token": "coupa"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "cred",
+    "name": "CRED",
+    "aliases": [
+      "CRED Club",
+      "Dreamplug Technologies"
+    ],
+    "sector": "Fintech",
+    "website": "https://cred.club",
+    "ats": {
+      "type": "lever",
+      "token": "cred"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "aliases": [],
+    "sector": "Data/Analytics",
+    "website": "https://www.databricks.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "databricks"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "datadog",
+    "name": "Datadog",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://www.datadoghq.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "datadog"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "devrev",
+    "name": "DevRev",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://devrev.ai",
+    "ats": {
+      "type": "greenhouse",
+      "token": "devrev"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "dexcare",
+    "name": "DexCare",
+    "aliases": [],
+    "sector": "HealthTech",
+    "website": "https://dexcare.com",
+    "ats": {
+      "type": "lever",
+      "token": "dexcarehealth"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "doordash",
+    "name": "DoorDash",
+    "aliases": [],
+    "sector": "Consumer",
+    "website": "https://www.doordash.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "doordashindia"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "dozee",
+    "name": "Dozee",
+    "aliases": [
+      "Turtle Shell Technologies"
+    ],
+    "sector": "HealthTech",
+    "website": "https://www.dozeehealth.ai",
+    "ats": {
+      "type": "lever",
+      "token": "dozee"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "drivetrain",
+    "name": "Drivetrain",
+    "aliases": [
+      "Drivetrain.ai",
+      "Drivetrain AI"
+    ],
+    "sector": "SaaS",
+    "website": "https://www.drivetrain.ai",
+    "ats": {
+      "type": "lever",
+      "token": "drivetrain"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "druva",
+    "name": "Druva",
+    "aliases": [],
+    "sector": "Security",
+    "website": "https://www.druva.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "druva"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "elastic",
+    "name": "Elastic",
+    "aliases": [
+      "Elastic NV",
+      "Elasticsearch"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://www.elastic.co",
+    "ats": {
+      "type": "greenhouse",
+      "token": "elastic"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://elevenlabs.io",
+    "ats": {
+      "type": "ashby",
+      "token": "elevenlabs"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "ema",
+    "name": "Ema",
+    "aliases": [
+      "Ema Unlimited",
+      "Ema AI"
+    ],
+    "sector": "AI",
+    "website": "https://www.ema.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "ema"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "emergent",
+    "name": "Emergent",
+    "aliases": [
+      "Emergent Labs",
+      "Emergent.sh"
+    ],
+    "sector": "AI",
+    "website": "https://emergent.sh",
+    "ats": {
+      "type": "greenhouse",
+      "token": "emergentlabsinc"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "everpure",
+    "name": "Everpure",
+    "aliases": [
+      "Pure Storage",
+      "Everpure Data"
+    ],
+    "sector": "Cloud",
+    "website": "https://www.everpuredata.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "purestorage"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "fampay",
+    "name": "FamPay",
+    "aliases": [
+      "FamApp",
+      "Trio Tech"
+    ],
+    "sector": "Fintech",
+    "website": "https://famapp.in",
+    "ats": {
+      "type": "lever",
+      "token": "fampay"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "fivetran",
+    "name": "Fivetran",
+    "aliases": [],
+    "sector": "Data/Analytics",
+    "website": "https://www.fivetran.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "fivetran"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "g2",
+    "name": "G2",
+    "aliases": [
+      "G2.com",
+      "G2 Crowd"
+    ],
+    "sector": "SaaS",
+    "website": "https://www.g2.com",
+    "ats": {
+      "type": "ashby",
+      "token": "g2"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://about.gitlab.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "gitlab"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "glance",
+    "name": "Glance",
+    "aliases": [
+      "Glance InMobi"
+    ],
+    "sector": "Consumer",
+    "website": "https://glance.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "glance"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "glean",
+    "name": "Glean",
+    "aliases": [
+      "Glean Technologies",
+      "Glean AI"
+    ],
+    "sector": "AI",
+    "website": "https://www.glean.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "gleanwork"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "graviton",
+    "name": "Graviton Research Capital",
+    "aliases": [
+      "Graviton Research"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.gravitontrading.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "gravitonresearchcapital"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "groww",
+    "name": "Groww",
+    "aliases": [
+      "Billionbrains Garage Ventures"
+    ],
+    "sector": "Fintech",
+    "website": "https://groww.in",
+    "ats": {
+      "type": "greenhouse",
+      "token": "groww"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "gushwork",
+    "name": "Gushwork",
+    "aliases": [
+      "Gushwork AI",
+      "Gushwork.ai"
+    ],
+    "sector": "AI",
+    "website": "https://www.gushwork.ai",
+    "ats": {
+      "type": "lever",
+      "token": "gushwork"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "hackerrank",
+    "name": "HackerRank",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://www.hackerrank.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "hackerrank"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "harness",
+    "name": "Harness",
+    "aliases": [
+      "Harness.io",
+      "Harness Inc"
+    ],
+    "sector": "DevTools",
+    "website": "https://www.harness.io",
+    "ats": {
+      "type": "greenhouse",
+      "token": "harnessinc"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "harvey",
+    "name": "Harvey",
+    "aliases": [
+      "Harvey AI"
+    ],
+    "sector": "AI",
+    "website": "https://www.harvey.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "harvey"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "headout",
+    "name": "Headout",
+    "aliases": [],
+    "sector": "Travel",
+    "website": "https://www.headout.com",
+    "ats": {
+      "type": "ashby",
+      "token": "headout"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "hevo-data",
+    "name": "Hevo Data",
+    "aliases": [
+      "Hevodata"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://hevodata.com",
+    "ats": {
+      "type": "lever",
+      "token": "hevodata"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "highlevel",
+    "name": "HighLevel",
+    "aliases": [
+      "GoHighLevel"
+    ],
+    "sector": "SaaS",
+    "website": "https://www.gohighlevel.com",
+    "ats": {
+      "type": "lever",
+      "token": "gohighlevel"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "highradius",
+    "name": "HighRadius",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://www.highradius.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "highradius"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "imc-trading",
+    "name": "IMC Trading",
+    "aliases": [
+      "IMC Financial Markets"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.imc.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "imc"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "inmobi",
+    "name": "InMobi",
+    "aliases": [],
+    "sector": "Media",
+    "website": "https://www.inmobi.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "inmobi"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "level-ai",
+    "name": "Level AI",
+    "aliases": [
+      "thelevel.ai"
+    ],
+    "sector": "AI",
+    "website": "https://thelevel.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "level-ai"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "meesho",
+    "name": "Meesho",
+    "aliases": [
+      "Fashnear Technologies"
+    ],
+    "sector": "E-commerce",
+    "website": "https://www.meesho.com",
+    "ats": {
+      "type": "lever",
+      "token": "meesho"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "mem0",
+    "name": "Mem0",
+    "aliases": [
+      "Mem0 AI",
+      "Mem0.ai"
+    ],
+    "sector": "AI",
+    "website": "https://mem0.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "mem0"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "mindtickle",
+    "name": "Mindtickle",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.mindtickle.com",
+    "ats": {
+      "type": "lever",
+      "token": "mindtickle"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://www.mongodb.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "mongodb"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "netomi",
+    "name": "Netomi",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://www.netomi.com",
+    "ats": {
+      "type": "lever",
+      "token": "netomi"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "nium",
+    "name": "Nium",
+    "aliases": [],
+    "sector": "Fintech",
+    "website": "https://www.nium.com",
+    "ats": {
+      "type": "lever",
+      "token": "nium"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "oaknorth",
+    "name": "OakNorth",
+    "aliases": [
+      "OakNorth Bank"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.oaknorth.com",
+    "ats": {
+      "type": "ashby",
+      "token": "oaknorth"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "observe-ai",
+    "name": "Observe.AI",
+    "aliases": [
+      "ObserveAI",
+      "Observe AI"
+    ],
+    "sector": "AI",
+    "website": "https://www.observe.ai",
+    "ats": {
+      "type": "greenhouse",
+      "token": "observeai"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "okta",
+    "name": "Okta",
+    "aliases": [],
+    "sector": "Security",
+    "website": "https://www.okta.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "okta"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://openai.com",
+    "ats": {
+      "type": "ashby",
+      "token": "openai"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "paytm",
+    "name": "Paytm",
+    "aliases": [
+      "One97 Communications"
+    ],
+    "sector": "Fintech",
+    "website": "https://paytm.com",
+    "ats": {
+      "type": "lever",
+      "token": "paytm"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "plane",
+    "name": "Plane",
+    "aliases": [
+      "Plane.so",
+      "Plane Software"
+    ],
+    "sector": "DevTools",
+    "website": "https://plane.so",
+    "ats": {
+      "type": "ashby",
+      "token": "plane"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "pocket-fm",
+    "name": "Pocket FM",
+    "aliases": [
+      "PocketFM"
+    ],
+    "sector": "Media",
+    "website": "https://www.pocketfm.com",
+    "ats": {
+      "type": "lever",
+      "token": "pocketfm"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "razorpay",
+    "name": "Razorpay",
+    "aliases": [
+      "Razorpay Software"
+    ],
+    "sector": "Fintech",
+    "website": "https://razorpay.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "razorpaysoftwareprivatelimited"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "roblox",
+    "name": "Roblox",
+    "aliases": [],
+    "sector": "Gaming",
+    "website": "https://www.roblox.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "roblox"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "rubrik",
+    "name": "Rubrik",
+    "aliases": [],
+    "sector": "Security",
+    "website": "https://www.rubrik.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "rubrik"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "safe-security",
+    "name": "Safe Security",
+    "aliases": [
+      "SAFE Security",
+      "Lucideus"
+    ],
+    "sector": "Security",
+    "website": "https://safe.security",
+    "ats": {
+      "type": "lever",
+      "token": "safe"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "sahaj",
+    "name": "Sahaj Software",
+    "aliases": [
+      "Sahaj AI"
+    ],
+    "sector": "IT Services",
+    "website": "https://www.sahaj.ai",
+    "ats": {
+      "type": "greenhouse",
+      "token": "sahajsoftware"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "sarvam",
+    "name": "Sarvam AI",
+    "aliases": [
+      "Sarvam.ai"
+    ],
+    "sector": "AI",
+    "website": "https://www.sarvam.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "sarvam"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "sigmoid",
+    "name": "Sigmoid",
+    "aliases": [
+      "Sigmoid Analytics"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://www.sigmoid.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "sigmoid"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "signoz",
+    "name": "SigNoz",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://signoz.io",
+    "ats": {
+      "type": "ashby",
+      "token": "signoz"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "simpplr",
+    "name": "Simpplr",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.simpplr.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "simpplr"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "smallest-ai",
+    "name": "Smallest.ai",
+    "aliases": [
+      "Smallest AI"
+    ],
+    "sector": "AI",
+    "website": "https://smallest.ai",
+    "ats": {
+      "type": "ashby",
+      "token": "smallest"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake",
+    "aliases": [
+      "Snowflake Inc",
+      "Snowflake Computing"
+    ],
+    "sector": "Data/Analytics",
+    "website": "https://www.snowflake.com",
+    "ats": {
+      "type": "ashby",
+      "token": "snowflake"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "spotdraft",
+    "name": "SpotDraft",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.spotdraft.com",
+    "ats": {
+      "type": "ashby",
+      "token": "spotdraft"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "squarepoint",
+    "name": "Squarepoint Capital",
+    "aliases": [
+      "Squarepoint"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.squarepoint-capital.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "squarepointcapital"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "stable-money",
+    "name": "Stable Money",
+    "aliases": [
+      "StableMoney"
+    ],
+    "sector": "Fintech",
+    "website": "https://stablemoney.in",
+    "ats": {
+      "type": "lever",
+      "token": "stable-money1"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "aliases": [
+      "Stripe Inc"
+    ],
+    "sector": "Fintech",
+    "website": "https://stripe.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "stripe"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "sumo-logic",
+    "name": "Sumo Logic",
+    "aliases": [
+      "SumoLogic"
+    ],
+    "sector": "DevTools",
+    "website": "https://www.sumologic.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "sumologic"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "tekion",
+    "name": "Tekion",
+    "aliases": [
+      "Tekion Corp"
+    ],
+    "sector": "SaaS",
+    "website": "https://tekion.com",
+    "ats": {
+      "type": "ashby",
+      "token": "tekion"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "toast",
+    "name": "Toast",
+    "aliases": [
+      "Toast Inc",
+      "Toasttab"
+    ],
+    "sector": "SaaS",
+    "website": "https://pos.toasttab.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "toast"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "together-ai",
+    "name": "Together AI",
+    "aliases": [
+      "Together.ai"
+    ],
+    "sector": "AI",
+    "website": "https://www.together.ai",
+    "ats": {
+      "type": "greenhouse",
+      "token": "togetherai"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "tower-research",
+    "name": "Tower Research Capital",
+    "aliases": [
+      "Tower Research"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.tower-research.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "towerresearchcapital"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "truecaller",
+    "name": "Truecaller",
+    "aliases": [],
+    "sector": "Consumer",
+    "website": "https://www.truecaller.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "truecaller"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "truefoundry",
+    "name": "TrueFoundry",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://www.truefoundry.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "truefoundry"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "turing",
+    "name": "Turing",
+    "aliases": [
+      "Turing.com"
+    ],
+    "sector": "AI",
+    "website": "https://www.turing.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "turing"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "twilio",
+    "name": "Twilio",
+    "aliases": [],
+    "sector": "DevTools",
+    "website": "https://www.twilio.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "twilio"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "uipath",
+    "name": "UiPath",
+    "aliases": [],
+    "sector": "AI",
+    "website": "https://www.uipath.com",
+    "ats": {
+      "type": "ashby",
+      "token": "uipath"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "valgenesis",
+    "name": "ValGenesis",
+    "aliases": [],
+    "sector": "HealthTech",
+    "website": "https://www.valgenesis.com",
+    "ats": {
+      "type": "lever",
+      "token": "valgenesis"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "wiz",
+    "name": "Wiz",
+    "aliases": [
+      "Wiz Inc",
+      "Wiz.io"
+    ],
+    "sector": "Security",
+    "website": "https://www.wiz.io",
+    "ats": {
+      "type": "greenhouse",
+      "token": "wizinc"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "yugabyte",
+    "name": "Yugabyte",
+    "aliases": [
+      "YugabyteDB"
+    ],
+    "sector": "DevTools",
+    "website": "https://www.yugabyte.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "yugabyte"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "zenoti",
+    "name": "Zenoti",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.zenoti.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "zenoti"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta",
+    "aliases": [
+      "Zeta Suite",
+      "Zeta Tech",
+      "Better World Technology"
+    ],
+    "sector": "Fintech",
+    "website": "https://www.zeta.tech",
+    "ats": {
+      "type": "lever",
+      "token": "zeta"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "zinnov",
+    "name": "Zinnov",
+    "aliases": [],
+    "sector": "Consulting",
+    "website": "https://zinnov.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "zinnov"
+    },
+    "logoUrl": ""
+  },
+  {
+    "id": "zscaler",
+    "name": "Zscaler",
+    "aliases": [],
+    "sector": "Security",
+    "website": "https://www.zscaler.com",
+    "ats": {
+      "type": "greenhouse",
+      "token": "zscaler"
+    },
+    "logoUrl": ""
+  }
+]

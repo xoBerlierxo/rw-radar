@@ -1,0 +1,51 @@
+name: poll-jobs
+
+on:
+  schedule:
+    - cron: "7 * * * *" # odd minute: top-of-hour cron queues are the most delayed
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = normal; no-push = write Firestore but send no pushes; dry-run = no writes, no pushes"
+        type: choice
+        options: [run, no-push, dry-run]
+        default: run
+      company:
+        description: "Optional registry id to poll only one company"
+        type: string
+        required: false
+
+concurrency:
+  group: poll-jobs
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: poller/requirements.txt
+      - run: pip install -r poller/requirements.txt
+      - name: Poll ATS job boards
+        working-directory: poller
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          RWRADAR_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          # Repo variable; set it to 1 to copy every push to the debug_all topic. Must be off before Day 13.
+          RWRADAR_DEBUG_ALL_TOPIC: ${{ vars.RWRADAR_DEBUG_ALL_TOPIC }}
+          MODE: ${{ inputs.mode || 'run' }}
+          COMPANY: ${{ inputs.company }}
+        run: |
+          args=(jobs)
+          if [ "$MODE" = "no-push" ]; then args+=(--no-push); fi
+          if [ "$MODE" = "dry-run" ]; then args+=(--dry-run); fi
+          if [ -n "$COMPANY" ]; then args+=(--company "$COMPANY"); fi
+          python -m rwradar_poller "${args[@]}"

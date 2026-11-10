@@ -1,0 +1,711 @@
+{
+ "jobs": [
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/7727374002/?gh_jid=7727374002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": null,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 7727374002,
+   "updated_at": "2026-09-01T13:15:13-04:00",
+   "requisition_id": null,
+   "title": "Bay Area Sales - Future Opportunities",
+   "company_name": "Druva",
+   "first_published": "2024-11-12T16:00:38-05:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8858480002/?gh_jid=8858480002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6546225002,
+   "location": {
+    "name": "Remote, UK"
+   },
+   "metadata": null,
+   "id": 8858480002,
+   "updated_at": "2026-11-04T16:41:47-05:00",
+   "requisition_id": "2897",
+   "title": "Channel Business Manager - Softcat",
+   "company_name": "Druva",
+   "first_published": "2026-10-13T11:54:03-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8811603002/?gh_jid=8811603002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6526415002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8811603002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2889",
+   "title": "Cloud Operations Support Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-09-23T12:26:16-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8908468002/?gh_jid=8908468002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6568878002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8908468002,
+   "updated_at": "2026-11-04T16:41:48-05:00",
+   "requisition_id": "2908",
+   "title": "Customer Success Manager",
+   "company_name": "Druva",
+   "first_published": "2026-11-03T06:19:05-05:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8459688002/?gh_jid=8459688002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6379133002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8459688002,
+   "updated_at": "2026-11-05T13:09:28-05:00",
+   "requisition_id": "2755",
+   "title": "Director, Product Management, Security ",
+   "company_name": "Druva",
+   "first_published": "2026-03-27T19:19:32-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8743562002/?gh_jid=8743562002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6496521002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8743562002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2864",
+   "title": "Field CTO",
+   "company_name": "Druva",
+   "first_published": "2026-08-31T16:12:06-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/7679725002/?gh_jid=7679725002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": null,
+   "location": {
+    "name": "Worldwide"
+   },
+   "metadata": null,
+   "id": 7679725002,
+   "updated_at": "2026-09-01T13:15:13-04:00",
+   "requisition_id": null,
+   "title": "Join Druva's Talent Community",
+   "company_name": "Druva",
+   "first_published": "2024-10-10T14:05:17-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8692422002/?gh_jid=8692422002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6473017002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8692422002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2851",
+   "title": "Learning and Development Director",
+   "company_name": "Druva",
+   "first_published": "2026-08-12T20:47:23-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8906847002/?gh_jid=8906847002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6568125002,
+   "location": {
+    "name": "Austin, TX"
+   },
+   "metadata": null,
+   "id": 8906847002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2907",
+   "title": "Partner Sales Manager, SHI",
+   "company_name": "Druva",
+   "first_published": "2026-10-28T12:42:41-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8324608002/?gh_jid=8324608002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": null,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8324608002,
+   "updated_at": "2026-09-01T13:15:13-04:00",
+   "requisition_id": null,
+   "title": "Sales Development Representative - Future Opportunity",
+   "company_name": "Druva",
+   "first_published": "2025-12-04T16:24:42-05:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8857583002/?gh_jid=8857583002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6545900002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8857583002,
+   "updated_at": "2026-11-04T16:41:47-05:00",
+   "requisition_id": "2896",
+   "title": "Sales Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-10-08T01:13:23-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8769630002/?gh_jid=8769630002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6508635002,
+   "location": {
+    "name": "Atlanta"
+   },
+   "metadata": null,
+   "id": 8769630002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2878",
+   "title": "Senior Account Executive",
+   "company_name": "Druva",
+   "first_published": "2026-09-23T12:05:09-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8525676002/?gh_jid=8525676002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6405167002,
+   "location": {
+    "name": "Santa Clara, CA or Raleigh, NC"
+   },
+   "metadata": null,
+   "id": 8525676002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2785",
+   "title": "Senior NetSuite Administrator",
+   "company_name": "Druva",
+   "first_published": "2026-04-28T17:02:23-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8779833002/?gh_jid=8779833002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6512255002,
+   "location": {
+    "name": "Chicago, IL"
+   },
+   "metadata": null,
+   "id": 8779833002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2881",
+   "title": "Senior Partner Sales Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-09-10T16:20:10-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8883093002/?gh_jid=8883093002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6557435002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8883093002,
+   "updated_at": "2026-11-04T16:41:48-05:00",
+   "requisition_id": "2902",
+   "title": "Senior Professional Services Consultant",
+   "company_name": "Druva",
+   "first_published": "2026-10-21T09:03:29-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8639145002/?gh_jid=8639145002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6450337002,
+   "location": {
+    "name": "Boston, MA or Austin, TX"
+   },
+   "metadata": null,
+   "id": 8639145002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2834",
+   "title": "Senior Sales Engineer, Dell",
+   "company_name": "Druva",
+   "first_published": "2026-08-05T16:37:28-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8814777002/?gh_jid=8814777002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6527812002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8814777002,
+   "updated_at": "2026-11-04T16:41:47-05:00",
+   "requisition_id": "2892",
+   "title": "Senior Staff Engineer, Product Security",
+   "company_name": "Druva",
+   "first_published": "2026-10-01T01:44:31-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8594064002/?gh_jid=8594064002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_optional",
+   "internal_job_id": 6432690002,
+   "location": {
+    "name": "Letterkenny, Ireland"
+   },
+   "metadata": null,
+   "id": 8594064002,
+   "updated_at": "2026-11-04T16:41:46-05:00",
+   "requisition_id": "2815",
+   "title": "Senior Staff Engineer, QA",
+   "company_name": "Druva",
+   "first_published": "2026-06-29T08:55:40-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8564138002/?gh_jid=8564138002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6420812002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8564138002,
+   "updated_at": "2026-11-04T16:41:45-05:00",
+   "requisition_id": "2802",
+   "title": "Senior Staff Software Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-08-04T06:26:38-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8598308002/?gh_jid=8598308002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6434131002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8598308002,
+   "updated_at": "2026-11-04T16:41:46-05:00",
+   "requisition_id": "2818",
+   "title": "Senior Staff Software Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-08-04T05:57:24-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8720275002/?gh_jid=8720275002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6485875002,
+   "location": {
+    "name": "Hyderabad, Andhra Pradesh, India"
+   },
+   "metadata": null,
+   "id": 8720275002,
+   "updated_at": "2026-11-04T16:41:46-05:00",
+   "requisition_id": "2860",
+   "title": "Senior Staff Software Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-10-16T00:43:59-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/7892681002/?gh_jid=7892681002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "education": "education_required",
+   "internal_job_id": 6116462002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 7892681002,
+   "updated_at": "2026-11-04T16:41:45-05:00",
+   "requisition_id": "2426",
+   "title": "Senior Staff Software Engineer (DataLake) ",
+   "company_name": "Druva",
+   "first_published": "2025-04-03T06:01:28-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8207141002/?gh_jid=8207141002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6252628002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8207141002,
+   "updated_at": "2026-11-04T16:41:45-05:00",
+   "requisition_id": "2658",
+   "title": "Senior Staff Software Engineer, Distributed Systems",
+   "company_name": "Druva",
+   "first_published": "2026-03-13T03:43:47-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8192672002/?gh_jid=8192672002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6247222002,
+   "location": {
+    "name": "Pune, Maharashtra, India"
+   },
+   "metadata": null,
+   "id": 8192672002,
+   "updated_at": "2026-11-04T16:41:45-05:00",
+   "requisition_id": "2650",
+   "title": "Senior Staff Software Engineer - Engineering Escalations ",
+   "company_name": "Druva",
+   "first_published": "2025-12-09T01:52:47-05:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8653672002/?gh_jid=8653672002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6455947002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8653672002,
+   "updated_at": "2026-11-05T16:52:30-05:00",
+   "requisition_id": "2843",
+   "title": "Staff Program Manager, NPI and Product Operations",
+   "company_name": "Druva",
+   "first_published": "2026-08-06T09:39:25-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8751008002/?gh_jid=8751008002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6500013002,
+   "location": {
+    "name": "Letterkenny, Donegal, Ireland"
+   },
+   "metadata": null,
+   "id": 8751008002,
+   "updated_at": "2026-11-04T16:41:46-05:00",
+   "requisition_id": "2873",
+   "title": "Staff Software Engineer",
+   "company_name": "Druva",
+   "first_published": "2026-09-17T06:10:27-04:00",
+   "language": "en",
+   "application_deadline": null
+  },
+  {
+   "absolute_url": "https://www.druva.com/why-druva/explore/careers/jobs/8923767002/?gh_jid=8923767002",
+   "data_compliance": [
+    {
+     "type": "gdpr",
+     "requires_consent": false,
+     "requires_processing_consent": false,
+     "requires_retention_consent": false,
+     "retention_period": null,
+     "demographic_data_consent_applies": false
+    }
+   ],
+   "internal_job_id": 6575895002,
+   "location": {
+    "name": "Santa Clara, CA"
+   },
+   "metadata": null,
+   "id": 8923767002,
+   "updated_at": "2026-11-04T16:42:04-05:00",
+   "requisition_id": "2913",
+   "title": "Talent Acquisition Operations Coordinator",
+   "company_name": "Druva",
+   "first_published": "2026-11-03T13:05:38-05:00",
+   "language": "en",
+   "application_deadline": null
+  }
+ ],
+ "meta": {
+  "total": 27
+ }
+}

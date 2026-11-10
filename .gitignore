@@ -1,0 +1,44 @@
+# Android / Gradle
+*.iml
+.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+/.idea/
+!/.idea/codeStyles/
+.kotlin/
+local.properties
+.DS_Store
+
+# Secrets: never commit (PLAN §2, D5)
+google-services.json
+app/google-services.json
+*service-account*.json
+*serviceAccount*.json
+*-firebase-adminsdk-*.json
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+/release/
+*.apk
+*.aab
+
+# Tester data
+testers/
+feedback-export*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Firebase CLI
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log

@@ -1,0 +1,780 @@
+{
+ "jobs": [
+  {
+   "id": "c0406fe0-c8c0-44aa-aa3e-b879f2bf1049",
+   "title": "Engagement Manager, Chanakya",
+   "department": "Business Development",
+   "team": "Business Development",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T11:46:39.214+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/c0406fe0-c8c0-44aa-aa3e-b879f2bf1049",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/c0406fe0-c8c0-44aa-aa3e-b879f2bf1049/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "7c42207a-bb56-413c-839f-9ad692df840e",
+   "title": "Data Scientist - Evaluations, Chanakya",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T11:56:48.684+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/7c42207a-bb56-413c-839f-9ad692df840e/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6",
+   "title": "Embedded Data Scientist, Chanakya",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T11:59:15.600+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/dc047f4f-97be-4bb3-a9f1-cebbfc4de3e6/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "b2201b5e-1e96-497a-962c-bca1768f75fd",
+   "title": "Embedded Infrastructure Engineer, Chanakya",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T12:01:22.644+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/b2201b5e-1e96-497a-962c-bca1768f75fd",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/b2201b5e-1e96-497a-962c-bca1768f75fd/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "9e197c29-5164-42eb-8e74-4f691a794517",
+   "title": "Product Manager (Models)",
+   "department": "Product",
+   "team": "Product",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T19:17:20.479+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/9e197c29-5164-42eb-8e74-4f691a794517",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/9e197c29-5164-42eb-8e74-4f691a794517/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "87d5a5af-ea7d-4b94-a0fa-81dc64e54907",
+   "title": "Strategic Deployment Engineer, Chanakya",
+   "department": "Deployment Engineering",
+   "team": "Deployment Engineering",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T20:02:28.261+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/87d5a5af-ea7d-4b94-a0fa-81dc64e54907",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/87d5a5af-ea7d-4b94-a0fa-81dc64e54907/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "e7f783e8-6378-4158-97d5-48a397a91698",
+   "title": "ML Ops Engineer, Chanakya",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T20:08:16.547+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/e7f783e8-6378-4158-97d5-48a397a91698/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "3e3b1ad5-99bb-42e6-9093-8953b89e552b",
+   "title": "Engagement Principal, Chanakya",
+   "department": "Sales/GTM",
+   "team": "Sales/GTM",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T20:10:15.854+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/3e3b1ad5-99bb-42e6-9093-8953b89e552b",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/3e3b1ad5-99bb-42e6-9093-8953b89e552b/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "10a352d0-a65b-4599-8998-e09deef34349",
+   "title": "Frontend Engineer, Chanakya",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-04-17T20:10:41.942+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/10a352d0-a65b-4599-8998-e09deef34349",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/10a352d0-a65b-4599-8998-e09deef34349/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "79bb725b-83d4-400c-a207-e2b0a7ccec68",
+   "title": "Product Designer ",
+   "department": "Product",
+   "team": "Product",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-19T03:45:42.145+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/79bb725b-83d4-400c-a207-e2b0a7ccec68",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/79bb725b-83d4-400c-a207-e2b0a7ccec68/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>Ship the best design work of your career.</strong></p><div style=\"min-height:1.2em;margin-top:0px;margin-bottom:0px\"> </div>...[trimmed]",
+   "descriptionPlain": "Ship the best design work of your career.\n\n \n\nDesign at Sarvam has had an outsized impact on everything we've built so far, and we're now growing the team. We c...[trimmed]"
+  },
+  {
+   "id": "0632eb6b-e99c-4e31-9a6a-c3bd36fc8512",
+   "title": "Solution Architect",
+   "department": "Sales/GTM",
+   "team": "Sales/GTM",
+   "employmentType": "FullTime",
+   "location": "Delhi",
+   "secondaryLocations": [
+    {
+     "location": "Mumbai",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "Maharashtra",
+       "addressCountry": "India",
+       "addressLocality": "Mumbai"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-05-07T06:47:11.483+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Delhi",
+     "addressCountry": "India",
+     "addressLocality": "Delhi"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/0632eb6b-e99c-4e31-9a6a-c3bd36fc8512",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/0632eb6b-e99c-4e31-9a6a-c3bd36fc8512/application",
+   "descriptionHtml": "<h2><strong>About Sarvam</strong></h2><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company is developing India's fu...[trimmed]",
+   "descriptionPlain": "ABOUT SARVAM\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "f462051e-ec76-45cf-96c5-e0192dd4dcc6",
+   "title": "Product Manager On-Device & Edge AI",
+   "department": "Product",
+   "team": "Product",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-12T12:05:29.021+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/f462051e-ec76-45cf-96c5-e0192dd4dcc6",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/f462051e-ec76-45cf-96c5-e0192dd4dcc6/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "10f11bb2-fe15-4743-9b3f-81da6743ea6a",
+   "title": "Staff Engineer, Product Infrastructure",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-12T14:36:10.352+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/10f11bb2-fe15-4743-9b3f-81da6743ea6a",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/10f11bb2-fe15-4743-9b3f-81da6743ea6a/application",
+   "descriptionHtml": "<h2>About Sarvam</h2><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereig...[trimmed]",
+   "descriptionPlain": "ABOUT SARVAM\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "2dcb062d-e42b-408d-be15-59ddde900984",
+   "title": "ML Researcher, Foundational Models",
+   "department": "Models",
+   "team": "Models",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-21T07:19:23.513+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/2dcb062d-e42b-408d-be15-59ddde900984/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "e9fb1269-fc4b-4879-aa35-0b75a8c83611",
+   "title": "ML Engineer (Training Infra), Foundational Models",
+   "department": "Models",
+   "team": "Models",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-10-07T10:30:03.130+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/e9fb1269-fc4b-4879-aa35-0b75a8c83611",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/e9fb1269-fc4b-4879-aa35-0b75a8c83611/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "48b2c236-a7e7-475d-b98b-4eb942e85dc7",
+   "title": "Staff Engineer, API Platform",
+   "department": "Engineering",
+   "team": "Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-21T06:34:24.832+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/48b2c236-a7e7-475d-b98b-4eb942e85dc7",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/48b2c236-a7e7-475d-b98b-4eb942e85dc7/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "6390e602-7b98-4700-baa9-ced5be8b1651",
+   "title": "Product Manager, Monetization & Retention",
+   "department": "Product",
+   "team": "Product",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-05-25T10:34:28.407+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/6390e602-7b98-4700-baa9-ced5be8b1651",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/6390e602-7b98-4700-baa9-ced5be8b1651/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "ae56bf44-44fd-4966-afe0-eeaceb3bfb20",
+   "title": "Product Marketing Manager",
+   "department": "Marketing",
+   "team": "Marketing",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-06-03T17:13:12.117+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/ae56bf44-44fd-4966-afe0-eeaceb3bfb20",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/ae56bf44-44fd-4966-afe0-eeaceb3bfb20/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "e1dd678f-6e25-48b4-82d8-a1a7d10a78d6",
+   "title": "Infrastructure SRE - HPC",
+   "department": "Infrastructure ",
+   "team": "Infrastructure ",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [
+    {
+     "location": "Chennai",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "Tamil Nadu",
+       "addressCountry": "India",
+       "addressLocality": "Chennai"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-06-26T09:18:02.474+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/e1dd678f-6e25-48b4-82d8-a1a7d10a78d6",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/e1dd678f-6e25-48b4-82d8-a1a7d10a78d6/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "fcb15601-6440-41f7-aa79-b9992057a4b2",
+   "title": "Platform Engineer - AI Infrastructure",
+   "department": "Infrastructure ",
+   "team": "Infrastructure ",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [
+    {
+     "location": "Chennai",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "Tamil Nadu",
+       "addressCountry": "India",
+       "addressLocality": "Chennai"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-06-29T08:51:22.501+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/fcb15601-6440-41f7-aa79-b9992057a4b2",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/fcb15601-6440-41f7-aa79-b9992057a4b2/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>Platform Engineer - AI Infrastructure</strong></p><p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min...[trimmed]",
+   "descriptionPlain": "Platform Engineer - AI Infrastructure\n\nAbout Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sove...[trimmed]"
+  },
+  {
+   "id": "12d53c76-3b0a-4ced-8320-aa746e962648",
+   "title": "Marketing Operations Manager",
+   "department": "Marketing",
+   "team": "Marketing",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-07-05T16:33:02.400+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/12d53c76-3b0a-4ced-8320-aa746e962648",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/12d53c76-3b0a-4ced-8320-aa746e962648/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "adbc090f-3aad-4b12-af36-a2f4b55c017e",
+   "title": "Product Manager – Media & Entertainment, Sarvam Studio",
+   "department": "Product",
+   "team": "Product",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-07-27T21:47:19.568+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/adbc090f-3aad-4b12-af36-a2f4b55c017e",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/adbc090f-3aad-4b12-af36-a2f4b55c017e/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>Product · Bengaluru · Full Time · On-Site</strong></p><p style=\"min-height:1.5em\"></p><h2>About Sarvam</h2><p style=\"min-hei...[trimmed]",
+   "descriptionPlain": "Product · Bengaluru · Full Time · On-Site\n\n\n\n\nABOUT SARVAM\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India's full-sta...[trimmed]"
+  },
+  {
+   "id": "72783205-b637-4431-9a0e-676a8223b063",
+   "title": "Performance Engineer, Kernels",
+   "department": "Infrastructure ",
+   "team": "Infrastructure ",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [
+    {
+     "location": "Chennai",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "Tamil Nadu",
+       "addressCountry": "India",
+       "addressLocality": "Chennai"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-08-10T06:26:37.057+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/72783205-b637-4431-9a0e-676a8223b063",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/72783205-b637-4431-9a0e-676a8223b063/application",
+   "descriptionHtml": "<h1>Performance Engineer, Kernels</h1><p style=\"min-height:1.5em\"><em>Part of Sarvam's Performance Engineering team. We are hiring two specialized performance r...[trimmed]",
+   "descriptionPlain": "PERFORMANCE ENGINEER, KERNELS\n\nPart of Sarvam's Performance Engineering team. We are hiring two specialized performance roles - Kernels (this posting) and Infer...[trimmed]"
+  },
+  {
+   "id": "7d2faba2-21a1-4a8a-aff5-f708a6959195",
+   "title": "Performance Engineer, Inference",
+   "department": "Infrastructure ",
+   "team": "Infrastructure ",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [
+    {
+     "location": "Chennai",
+     "address": {
+      "postalAddress": {
+       "addressRegion": "Tamil Nadu",
+       "addressCountry": "India",
+       "addressLocality": "Chennai"
+      }
+     }
+    }
+   ],
+   "publishedAt": "2026-08-10T06:33:05.030+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/7d2faba2-21a1-4a8a-aff5-f708a6959195",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/7d2faba2-21a1-4a8a-aff5-f708a6959195/application",
+   "descriptionHtml": "<h1>Performance Engineer, Inference</h1><p style=\"min-height:1.5em\"><em>Part of Sarvam's Performance Engineering team. We are hiring two specialized performance...[trimmed]",
+   "descriptionPlain": "PERFORMANCE ENGINEER, INFERENCE\n\nPart of Sarvam's Performance Engineering team. We are hiring two specialized performance roles - Inference (this posting) and K...[trimmed]"
+  },
+  {
+   "id": "d2d593e6-be5a-4431-b1fa-86f18d1c7edf",
+   "title": "DevOps Engineer",
+   "department": "Infrastructure ",
+   "team": "Infrastructure ",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-28T06:52:14.577+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/d2d593e6-be5a-4431-b1fa-86f18d1c7edf",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/d2d593e6-be5a-4431-b1fa-86f18d1c7edf/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">Sarvam’s Work Agents team builds the harness for developing, evaluati...[trimmed]",
+   "descriptionPlain": "About the Role\n\nSarvam’s Work Agents team builds the harness for developing, evaluating, and serving autonomous agents at scale. The harness is the backbone beh...[trimmed]"
+  },
+  {
+   "id": "48c228f1-0762-4d4e-9d83-ae8f751ce19d",
+   "title": "Deployment Strategist",
+   "department": "Deployment Engineering",
+   "team": "Deployment Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-11T10:45:16.628+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/48c228f1-0762-4d4e-9d83-ae8f751ce19d",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/48c228f1-0762-4d4e-9d83-ae8f751ce19d/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">India's largest banks, insurers, digital natives and government departments are not short of AI pilots. They are short of AI in prod...[trimmed]",
+   "descriptionPlain": "India's largest banks, insurers, digital natives and government departments are not short of AI pilots. They are short of AI in production.\n\nClosing that gap is...[trimmed]"
+  },
+  {
+   "id": "36f89b00-2010-4d23-aae3-17a2f53d9eaa",
+   "title": "Agent Engineer",
+   "department": "Deployment Engineering",
+   "team": "Deployment Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-20T06:30:48.859+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/36f89b00-2010-4d23-aae3-17a2f53d9eaa",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/36f89b00-2010-4d23-aae3-17a2f53d9eaa/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">The distance between an AI system that works and one that millions of people rely on every day is where the real engineering lives. ...[trimmed]",
+   "descriptionPlain": "The distance between an AI system that works and one that millions of people rely on every day is where the real engineering lives. Crossing it is what Agent En...[trimmed]"
+  },
+  {
+   "id": "fcd803a8-6ffb-48fa-99f9-d7f43e6572ee",
+   "title": "Technical Partner Enablement Manager",
+   "department": "Deployment Engineering",
+   "team": "Deployment Engineering",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-17T10:13:36.719+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/fcd803a8-6ffb-48fa-99f9-d7f43e6572ee",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/fcd803a8-6ffb-48fa-99f9-d7f43e6572ee/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\">Sarvam Circle, our partner ecosystem, is one of our fastest growing vectors. It brings in firms to take frontier AI to government an...[trimmed]",
+   "descriptionPlain": "Sarvam Circle, our partner ecosystem, is one of our fastest growing vectors. It brings in firms to take frontier AI to government and public institutions, enter...[trimmed]"
+  },
+  {
+   "id": "17d13aaa-2faf-40de-82e5-da894ead0856",
+   "title": "Senior Manager, Growth Marketing",
+   "department": "Marketing",
+   "team": "Marketing",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-19T08:56:02.833+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/17d13aaa-2faf-40de-82e5-da894ead0856",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/17d13aaa-2faf-40de-82e5-da894ead0856/application",
+   "descriptionHtml": "<h2><strong>About Sarvam</strong></h2><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company is developing India’s fu...[trimmed]",
+   "descriptionPlain": "ABOUT SARVAM\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  },
+  {
+   "id": "2fd59d81-b766-4f54-85b3-d0eae08dbfc0",
+   "title": "GTM & Strategy, Model API",
+   "department": "Sales/GTM",
+   "team": "Sales/GTM",
+   "employmentType": "FullTime",
+   "location": "Bengaluru",
+   "secondaryLocations": [],
+   "publishedAt": "2026-08-20T08:00:04.868+00:00",
+   "isListed": true,
+   "isRemote": false,
+   "workplaceType": "OnSite",
+   "address": {
+    "postalAddress": {
+     "addressRegion": "Karnataka",
+     "addressCountry": "India",
+     "addressLocality": "Bengaluru"
+    }
+   },
+   "jobUrl": "https://jobs.ashbyhq.com/sarvam/2fd59d81-b766-4f54-85b3-d0eae08dbfc0",
+   "applyUrl": "https://jobs.ashbyhq.com/sarvam/2fd59d81-b766-4f54-85b3-d0eae08dbfc0/application",
+   "descriptionHtml": "<p style=\"min-height:1.5em\"><strong>About Sarvam</strong></p><p style=\"min-height:1.5em\">Sarvam is building the bedrock of Sovereign AI for India. The company i...[trimmed]",
+   "descriptionPlain": "About Sarvam\n\nSarvam is building the bedrock of Sovereign AI for India. The company is developing India’s full-stack sovereign AI platform, building across rese...[trimmed]"
+  }
+ ],
+ "apiVersion": "1"
+}

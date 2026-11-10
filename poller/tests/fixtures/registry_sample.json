@@ -1,0 +1,65 @@
+[
+  {
+    "id": "groww",
+    "name": "Groww",
+    "aliases": ["Nextbillion Technology"],
+    "sector": "Fintech",
+    "website": "https://groww.in",
+    "ats": {"type": "greenhouse", "token": "groww"},
+    "logoUrl": ""
+  },
+  {
+    "id": "druva",
+    "name": "Druva",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://www.druva.com",
+    "ats": {"type": "greenhouse", "token": "druva"},
+    "logoUrl": ""
+  },
+  {
+    "id": "cred",
+    "name": "CRED",
+    "aliases": ["Dreamplug Technologies"],
+    "sector": "Fintech",
+    "website": "https://cred.club",
+    "ats": {"type": "lever", "token": "cred"},
+    "logoUrl": ""
+  },
+  {
+    "id": "zeta",
+    "name": "Zeta",
+    "aliases": ["Zeta Suite"],
+    "sector": "Fintech",
+    "website": "https://www.zeta.tech",
+    "ats": {"type": "lever", "token": "zeta"},
+    "logoUrl": ""
+  },
+  {
+    "id": "meesho",
+    "name": "Meesho",
+    "aliases": ["Fashnear Technologies"],
+    "sector": "E-commerce",
+    "website": "https://www.meesho.com",
+    "ats": {"type": "lever", "token": "meesho"},
+    "logoUrl": ""
+  },
+  {
+    "id": "sarvam",
+    "name": "Sarvam AI",
+    "aliases": ["Sarvam"],
+    "sector": "AI",
+    "website": "https://www.sarvam.ai",
+    "ats": {"type": "ashby", "token": "sarvam"},
+    "logoUrl": ""
+  },
+  {
+    "id": "atlan",
+    "name": "Atlan",
+    "aliases": [],
+    "sector": "SaaS",
+    "website": "https://atlan.com",
+    "ats": {"type": "ashby", "token": "atlan"},
+    "logoUrl": "https://example.com/atlan.png"
+  }
+]

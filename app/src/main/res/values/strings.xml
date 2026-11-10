@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">RW Radar</string>
+
+    <!-- Notification channels (ids in push/Channels.kt) -->
+    <string name="channel_new_openings">New openings</string>
+    <string name="channel_new_openings_desc">New roles at companies you follow, in the role families you picked.</string>
+    <string name="channel_hiring_signals">Hiring signals</string>
+    <string name="channel_hiring_signals_desc">Funding news for companies you follow.</string>
+
+    <!-- Navigation -->
+    <string name="tab_discover">Discover</string>
+    <string name="tab_following">Following</string>
+    <string name="tab_settings">Settings</string>
+    <string name="tab_openings">Openings</string>
+    <string name="tab_news">News</string>
+
+    <!-- Actions -->
+    <string name="action_follow">Follow</string>
+    <string name="action_following">Following</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_allow_notifications">Allow notifications</string>
+    <string name="action_open_settings">Open settings</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_load_more">Load more</string>
+    <string name="action_referralworld">Get referred on ReferralWorld</string>
+
+    <!-- Discover -->
+    <string name="search_companies">Search companies</string>
+    <string name="sort_new_this_week">Most new roles this week</string>
+    <string name="sort_recently_funded">Recently funded</string>
+    <string name="sort_a_z">A–Z</string>
+    <string name="tag_funded">Funded %1$s</string>
+
+    <!-- Company detail -->
+    <string name="tag_new">New</string>
+    <string name="tag_remote">Remote</string>
+    <string name="job_posted">Posted %1$s</string>
+    <string name="job_first_seen">First seen %1$s</string>
+    <string name="filter_location">Location</string>
+    <string name="filter_remote_only">Remote only</string>
+
+    <plurals name="open_roles">
+        <item quantity="one">%d open role</item>
+        <item quantity="other">%d open roles</item>
+    </plurals>
+    <plurals name="unread_updates">
+        <item quantity="one">%d new</item>
+        <item quantity="other">%d new</item>
+    </plurals>
+
+    <!-- Empty and error states -->
+    <string name="empty_directory">No companies yet. Check back soon.</string>
+    <string name="empty_search">No companies match your search.</string>
+    <string name="empty_following">You aren\'t following any companies yet. Follow some from Discover.</string>
+    <string name="empty_openings">No open roles right now</string>
+    <string name="empty_openings_filtered">No loaded roles match these filters.</string>
+    <string name="empty_news">No news yet</string>
+    <string name="empty_company">This company isn\'t available.</string>
+    <string name="error_generic">Couldn\'t load this. Check your connection and try again.</string>
+    <string name="error_load_more">Couldn\'t load more. Tap to retry.</string>
+    <string name="error_bad_link">This link can\'t be opened.</string>
+    <string name="error_no_browser">No browser found to open this link.</string>
+
+    <!-- Following -->
+    <string name="banner_notifications_off_title">Notifications are off</string>
+    <string name="banner_notifications_off_body">You won\'t hear about new roles or funding at the companies you follow. Turn notifications on for RW Radar.</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+    <string name="onboarding_families_title">What roles are you looking for?</string>
+    <string name="onboarding_families_body">Pick one or more. You\'ll only be notified about these. You can change this later in Settings.</string>
+    <string name="onboarding_follow_title">Follow companies</string>
+    <string name="onboarding_follow_body">Follow at least 3 companies to get alerts when they post roles or raise funding.</string>
+    <string name="onboarding_follow_count">%1$d of %2$d followed</string>
+    <string name="onboarding_notif_title">Turn on notifications</string>
+    <string name="onboarding_notif_body">RW Radar tells you when a company you follow posts a matching role or raises funding. Openings fill fast, so allow notifications to hear first.</string>
+
+    <!-- Settings -->
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_new_openings">New openings</string>
+    <string name="settings_new_openings_desc">New roles in your role families at companies you follow</string>
+    <string name="settings_funding_signals">Funding signals</string>
+    <string name="settings_funding_signals_desc">When a company you follow raises funding</string>
+    <string name="settings_role_families">Role families</string>
+    <string name="settings_role_families_desc">Pick at least one.</string>
+    <string name="settings_privacy">Privacy note</string>
+    <string name="settings_version">App version</string>
+
+    <!-- Privacy note (PLAN §7). Same text as docs/privacy.md: keep the two in sync. -->
+    <string name="privacy_title">Privacy note</string>
+    <string name="privacy_intro">RW Radar collects as little as it can. Here is what that means.</string>
+    <string name="privacy_collected_title">What we collect</string>
+    <string name="privacy_collected">• An anonymous ID that Firebase creates when you first open the app. It is not linked to your name or account.\n• The companies you follow and the role families you pick (for example Engineering or Data).\n• Your notification settings.\n• Usage events (for example \"followed a company\" or \"opened a notification\") and crash reports, so we can fix bugs.</string>
+    <string name="privacy_not_collected_title">What we don\'t collect</string>
+    <string name="privacy_not_collected">Your name, email address, phone number, contacts, location or résumé.</string>
+    <string name="privacy_storage_title">Where it\'s stored</string>
+    <string name="privacy_storage">In Google Firebase (Firestore, Analytics and Crashlytics).</string>
+    <string name="privacy_delete_title">How to delete it</string>
+    <!-- TODO(owner): replace OWNER_CONTACT_EMAIL with the real contact address (also in docs/privacy.md). -->
+    <string name="privacy_delete">• Uninstalling the app (or clearing its data) removes the anonymous ID from your phone. Your follows can\'t be recovered after that.\n• To delete the data stored on the server for your ID, email OWNER_CONTACT_EMAIL and we will remove it.</string>
+    <string name="privacy_links_title">News and job links</string>
+    <string name="privacy_links">• News headlines link to the publisher\'s own website. Job links open the company\'s own job posting. RW Radar doesn\'t store article text.\n• The \"Get referred on ReferralWorld\" button opens the ReferralWorld Careers website. RW Radar doesn\'t share any data with ReferralWorld.</string>
+</resources>

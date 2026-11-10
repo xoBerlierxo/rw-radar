@@ -1,0 +1,5 @@
+# RW Radar poller (Python 3.12). Keep this list small; the GitHub Actions pip cache keys on this file.
+firebase-admin>=6.5,<8
+requests>=2.32,<3
+feedparser>=6.0.11,<7
+pytest>=8.0,<10

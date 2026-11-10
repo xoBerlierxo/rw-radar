@@ -1,0 +1,4 @@
+/build
+
+# Firebase config: never commit (CLAUDE.md §2). A placeholder may exist locally.
+google-services.json

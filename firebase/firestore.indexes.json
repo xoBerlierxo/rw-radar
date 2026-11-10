@@ -1,0 +1,21 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "firstSeenAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "news",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "companyIds", "arrayConfig": "CONTAINS" },
+        { "fieldPath": "publishedAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

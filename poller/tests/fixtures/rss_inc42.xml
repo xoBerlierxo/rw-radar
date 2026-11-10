@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Inc42 Media</title>
+	<atom:link href="https://inc42.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://inc42.com/</link>
+	<description>India’s #1 Startup Media &#38; Intelligence Platform</description>
+	<lastBuildDate>Tue, 10 Nov 2026 15:31:45 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+
+<image>
+	<url>https://inc42.com/cdn-cgi/image/quality=90/https://asset.inc42.com/2021/09/cropped-inc42-favicon-1-32x32.png</url>
+	<title>Inc42 Media</title>
+	<link>https://inc42.com/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Three Workers Die After Inhaling Toxic Gases At Tata’s TN iPhone Factory</title>
+		<link>https://inc42.com/buzz/three-workers-die-after-inhaling-toxic-gases-at-tatas-tn-iphone-factory/</link>
+		
+		<dc:creator><![CDATA[Anjali Jain]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 15:31:45 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579803</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Matrimony Q2 Profit Soars 2.7X YoY To ₹20.7 Cr, Revenue up 17.6%</title>
+		<link>https://inc42.com/buzz/matrimony-q2-profit-soars-2-7x-yoy-to-%e2%82%b920-7-cr-revenue-up-17-6/</link>
+		
+		<dc:creator><![CDATA[Anne Florentyna]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 13:10:43 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579792</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>ShareChat Parent Mohalla Tech’s FY26 Loss Widens 79% To ₹1,978 Cr, Revenue Inches Past ₹1,000 Cr Mark</title>
+		<link>https://inc42.com/buzz/sharechat-parent-mohalla-techs-fy26-loss-widens-79-to-%e2%82%b91978-cr-revenue-inches-past-%e2%82%b91000-cr-mark/</link>
+		
+		<dc:creator><![CDATA[Anjali Jain]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 13:06:42 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579787</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Froncort.AI Raises $2.3 Mn From Google.org To Expand AI-Based Disease Surveillance</title>
+		<link>https://inc42.com/buzz/froncort-ai-raises-2-3-mn-from-google-org-to-expand-ai-based-disease-surveillance/</link>
+		
+		<dc:creator><![CDATA[Anne Florentyna]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 12:52:54 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579783</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Why Gramiyaa Had To Think Like A Supermarket To Win On Quick Commerce</title>
+		<link>https://inc42.com/startups/why-gramiyaa-had-to-think-like-a-supermarket-to-win-on-quick-commerce/</link>
+		
+		<dc:creator><![CDATA[Anirudh Trivedi]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 11:30:19 +0000</pubDate>
+				<category><![CDATA[Startup Stories]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579749</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Sarvam Ropes In Google Cloud India MD Sashikumar Sreedharan As President &#038; CBO</title>
+		<link>https://inc42.com/buzz/sarvam-ropes-in-google-cloud-india-md-sashikumar-sreedharan-as-president-cbo/</link>
+		
+		<dc:creator><![CDATA[Anjali Jain]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 07:00:39 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579763</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+			<script type='text/javascript'>
+                            var dlChartData = {
+                                json_key: 'Funding Amount Over Time',
+                                shortcode_key: 'Funding Amount Over Time',
+                                companyName: 'sarvam-ai',
+                                apiUrl: '/funding-amount/over-time/',
+                                maxyear: '2026',
+                                minyear: '2008',
+                                location: '',
+                                mindate: '',
+                                maxdate: '',
+                                rounds: '',
+                                industry: '',
+                                apiUrlsector: '',
+                                apiUrlLocation: '',
+                                investors: '',
+                                chartType: 'Area',
+                                donatType: '',
+                                financialType: '',
+                                timeframeType: '',
+                            };
+                        // console.log('Global Variable dlChartData:', dlChartData);
+                        </script>							</item>
+<item>
+		<title>InMobi Secures Naming Rights For Bengaluru’s Ibbaluru Metro Station For ₹65 Cr</title>
+		<link>https://inc42.com/buzz/inmobi-secures-naming-rights-for-bengalurus-ibbaluru-metro-station-for-%e2%82%b965-cr/</link>
+		
+		<dc:creator><![CDATA[Palak Sharma]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 06:37:10 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579758</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>OpenAI Deploys Control Room With 35-Second Kill Switch Amid Security Concerns</title>
+		<link>https://inc42.com/buzz/openai-deploys-control-room-with-35-second-kill-switch-amid-security-concerns/</link>
+		
+		<dc:creator><![CDATA[Shrishti Bisht]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 06:09:32 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[AI Economy]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579744</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>SEBI Clears MakeMyTrip&#8217;s India IPO</title>
+		<link>https://inc42.com/buzz/sebi-clears-makemytrips-india-ipo/</link>
+		
+		<dc:creator><![CDATA[Anjali Jain]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 06:07:44 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579741</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Beauty Brands Go Quick Commerce-First </title>
+		<link>https://inc42.com/features/beauty-brands-go-quick-commerce-first/</link>
+		
+		<dc:creator><![CDATA[Bismah Malik]]></dc:creator>
+		<pubDate>Tue, 10 Nov 2026 05:30:27 +0000</pubDate>
+				<category><![CDATA[In-Depth]]></category>
+		<category><![CDATA[The Checkout]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579504</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>Decoding BlackBuck’s Core Trucking Model And Its New Engines</title>
+		<link>https://inc42.com/resources/decoding-blackbucks-core-trucking-model-and-its-new-engines/</link>
+		
+		<dc:creator><![CDATA[Palak Sharma]]></dc:creator>
+		<pubDate>Mon, 09 Nov 2026 12:38:55 +0000</pubDate>
+				<category><![CDATA[Resources]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579548</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+<item>
+		<title>MakeMyTrip Acquires Majority Stake In Quick Ride To Enter Ride Pooling</title>
+		<link>https://inc42.com/buzz/makemytrip-acquires-majority-stake-in-quick-ride-to-enter-ride-pooling/</link>
+		
+		<dc:creator><![CDATA[Anne Florentyna]]></dc:creator>
+		<pubDate>Fri, 06 Nov 2026 10:50:39 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://inc42.com/?p=579527</guid>
+
+					<description><![CDATA[(trimmed)]]></description>
+										</item>
+	</channel>
+</rss>
