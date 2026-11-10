@@ -22,11 +22,19 @@ service cloud.firestore {
       function isOwner() {
         return request.auth != null && request.auth.uid == uid;
       }
+      // Shape of a user doc. Every field is optional because the app also uses merge writes.
+      // follows: registry ids (bounded; the registry has 100). families: only the 6 keys.
+      // notifPrefs: only {jobs, signals}, both booleans. createdAt: a timestamp.
       function validUser(d) {
         return d.keys().hasOnly(['follows', 'families', 'notifPrefs', 'createdAt'])
-          && (!('follows' in d) || (d.follows is list && d.follows.size() <= 200))
-          && (!('families' in d) || (d.families is list && d.families.size() <= 6))
-          && (!('notifPrefs' in d) || d.notifPrefs is map);
+          && (!('follows' in d) || (d.follows is list && d.follows.size() <= 150))
+          && (!('families' in d) || (d.families is list
+                && d.families.hasOnly(['design', 'data', 'product', 'gtm', 'eng', 'other'])))
+          && (!('notifPrefs' in d) || (d.notifPrefs is map
+                && d.notifPrefs.keys().hasOnly(['jobs', 'signals'])
+                && (!('jobs' in d.notifPrefs) || d.notifPrefs.jobs is bool)
+                && (!('signals' in d.notifPrefs) || d.notifPrefs.signals is bool)))
+          && (!('createdAt' in d) || d.createdAt is timestamp);
       }
       allow read, delete: if isOwner();
       allow create, update: if isOwner() && validUser(request.resource.data);

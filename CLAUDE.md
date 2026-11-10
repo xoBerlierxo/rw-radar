@@ -172,6 +172,16 @@ App tap routing: `type=jobs` opens Company detail → Openings tab and highlight
   so the 72 cron runs/day use free Actions minutes. Everything committed is world-readable: scan for keys before every push.
 - Privacy contact (in-app privacy note + `docs/privacy.md`): somshekharpandey@gmail.com (owner-approved for publication).
 
+## 7b. Security rules (public repo, see SECURITY.md and docs/security-audit.md)
+
+- Before every push, scan the history: no keys, no `google-services.json`/`*adminsdk*.json`/keystores, no personal data beyond the owner's published email.
+- Poller CI installs **only** `poller/requirements-lock.txt` with `--no-deps`. When you change `requirements.txt`, regenerate the lock
+  (clean Linux venv → `pip freeze`) and verify with `pip check` + pytest. Actions stay pinned by commit SHA with `persist-credentials: false`.
+- Never log credentials, env vars or user search text. Secrets live only in GitHub Actions secrets.
+- App: no Advertising ID or SSAID (manifest removes `AD_ID`/`ADSERVICES` permissions and turns those flags off). Re-check the merged manifest after adding any SDK.
+  Validate every intent extra (`PushTarget.parse`) because `MainActivity` is exported.
+- Firestore rule changes must be deployed by the owner (Claude's service-account deploy is blocked by permissions).
+
 ## 8. Status log
 
 Keep this current. One line per milestone, newest last.
@@ -188,3 +198,7 @@ Keep this current. One line per milestone, newest last.
 - **Next (owner):** deploy firestore rules + indexes (Claude's REST deploy attempt was blocked by permissions), then install the debug APK and test.
 - **Known open items:** risky common-word company names (Plane, Glance, Toast, Harness, G2, Bureau…) have blocklist
   phrases, but the Day-9 manual news review is still needed.
+- 2026-11-11: Security audit (docs/security-audit.md): no secrets in history. Fixed: AD_ID collection (privacy note now accurate),
+  unpinned CI deps (lock file), action SHA pinning, persist-credentials, intent-extra validation, stricter users rules, GitHub secret
+  scanning + push protection + Dependabot on. **Owner to do:** deploy the updated firestore.rules, restrict the Android API key,
+  optionally create a least-privilege poller service account, and secure the local key file in D:\Sketch.

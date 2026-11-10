@@ -16,8 +16,8 @@ class PushTargetTest {
 
     @Test
     fun `parses a signal push`() {
-        val target = PushTarget.fromData(mapOf("type" to "signal", "companyId" to "zepto", "newsHash" to "abc123"))
-        assertEquals(PushTarget("signal", "zepto", newsHash = "abc123"), target)
+        val target = PushTarget.fromData(mapOf("type" to "signal", "companyId" to "zepto", "newsHash" to "3f786850e387550fdab836ed7e6dc881de23001b"))
+        assertEquals(PushTarget("signal", "zepto", newsHash = "3f786850e387550fdab836ed7e6dc881de23001b"), target)
         assertEquals(true, target?.isSignal)
     }
 
@@ -37,5 +37,18 @@ class PushTargetTest {
     fun `extras round trip`() {
         val target = PushTarget("jobs", "razorpay", "eng", 42L, null)
         assertEquals(target, PushTarget.fromData(target.toExtras()))
+    }
+
+    @Test
+    fun `rejects crafted extras from other apps`() {
+        // companyId becomes a Firestore path segment: no slashes, dots, upper case or huge values.
+        assertNull(PushTarget.fromData(mapOf("type" to "jobs", "companyId" to "../users/abc")))
+        assertNull(PushTarget.fromData(mapOf("type" to "jobs", "companyId" to "a/b")))
+        assertNull(PushTarget.fromData(mapOf("type" to "jobs", "companyId" to "Razorpay")))
+        assertNull(PushTarget.fromData(mapOf("type" to "jobs", "companyId" to "x".repeat(65))))
+        val t = PushTarget.fromData(
+            mapOf("type" to "jobs", "companyId" to "zeta", "family" to "hacker", "newsHash" to "zz", "since" to "-5"),
+        )
+        assertEquals(PushTarget("jobs", "zeta"), t)
     }
 }

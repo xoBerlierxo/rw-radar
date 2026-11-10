@@ -97,7 +97,7 @@
     <string name="privacy_collected_title">What we collect</string>
     <string name="privacy_collected">• An anonymous ID that Firebase creates when you first open the app. It is not linked to your name or account.\n• The companies you follow and the role families you pick (for example Engineering or Data).\n• Your notification settings.\n• Usage events (for example \"followed a company\" or \"opened a notification\") and crash reports, so we can fix bugs.</string>
     <string name="privacy_not_collected_title">What we don\'t collect</string>
-    <string name="privacy_not_collected">Your name, email address, phone number, contacts, location or résumé.</string>
+    <string name="privacy_not_collected">Your name, email address, phone number, contacts, location or résumé. We also don\'t collect your phone\'s Advertising ID, and nothing is used for ads.</string>
     <string name="privacy_storage_title">Where it\'s stored</string>
     <string name="privacy_storage">In Google Firebase (Firestore, Analytics and Crashlytics).</string>
     <string name="privacy_delete_title">How to delete it</string>

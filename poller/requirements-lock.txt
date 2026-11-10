@@ -1,0 +1,47 @@
+# Exact, fully pinned dependency set for the GitHub Actions poller runs (supply-chain safety: the
+# poll jobs hold the Firebase admin key). Install with:  pip install --no-deps -r requirements-lock.txt
+# Regenerate after changing requirements.txt: install it in a clean Linux venv, then `pip freeze`.
+# Dependabot (.github/dependabot.yml) proposes updates as PRs.
+anyio==4.16.0
+cachecontrol==0.14.4
+certifi==2026.10.23
+cffi==2.1.1
+charset-normalizer==3.5.2
+cryptography==50.0.2
+feedparser==6.0.14
+feedparser-sgmllib==2.1.0
+firebase-admin==7.7.0
+google-api-core==2.44.0
+google-auth==2.62.2
+google-cloud-core==2.8.0
+google-cloud-firestore==2.34.1
+google-cloud-storage==3.17.1
+google-crc32c==1.9.0
+google-resumable-media==2.11.0
+googleapis-common-protos==1.76.0
+grpcio==1.85.1
+grpcio-status==1.85.1
+h11==0.16.0
+h2==4.4.1
+hpack==4.2.0
+httpcore==1.0.9
+httpx==0.28.1
+hyperframe==6.1.0
+idna==3.20
+iniconfig==2.3.1
+msgpack==1.2.4
+opentelemetry-api==1.45.2
+packaging==26.3
+pluggy==1.7.0
+proto-plus==1.29.0
+protobuf==7.36.2
+pyasn1==0.6.5
+pyasn1-modules==0.4.2
+pycparser==3.12
+pygments==2.21.0
+pyjwt==2.15.1
+pytest==9.2.0
+requests==2.34.2
+typing-extensions==4.16.0
+urllib3==2.8.0
+colorama==0.4.6 ; sys_platform == "win32"

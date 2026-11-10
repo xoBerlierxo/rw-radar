@@ -32,16 +32,22 @@ data class PushTarget(
         const val KEY_SINCE = "since"
         const val KEY_NEWS_HASH = "newsHash"
 
-        /** Returns null unless both `type` (jobs|signal) and `companyId` are present. */
+        // MainActivity is exported (launcher), so any installed app can send it these extras.
+        // Validate everything: companyId becomes a Firestore path segment.
+        private val COMPANY_ID_RE = Regex("^[a-z0-9-]{1,64}$")
+        private val FAMILY_RE = Regex("^(design|data|product|gtm|eng|other)$")
+        private val NEWS_HASH_RE = Regex("^[0-9a-f]{40}$")
+
+        /** Returns null unless `type` (jobs|signal) and a valid registry-slug `companyId` are present. */
         fun parse(get: (String) -> String?): PushTarget? {
             val type = get(KEY_TYPE)?.takeIf { it == TYPE_JOBS || it == TYPE_SIGNAL } ?: return null
-            val companyId = get(KEY_COMPANY_ID)?.takeIf { it.isNotBlank() } ?: return null
+            val companyId = get(KEY_COMPANY_ID)?.takeIf { COMPANY_ID_RE.matches(it) } ?: return null
             return PushTarget(
                 type = type,
                 companyId = companyId,
-                family = get(KEY_FAMILY)?.takeIf { it.isNotBlank() },
-                since = get(KEY_SINCE)?.trim()?.toLongOrNull(),
-                newsHash = get(KEY_NEWS_HASH)?.takeIf { it.isNotBlank() },
+                family = get(KEY_FAMILY)?.takeIf { FAMILY_RE.matches(it) },
+                since = get(KEY_SINCE)?.trim()?.toLongOrNull()?.takeIf { it > 0 },
+                newsHash = get(KEY_NEWS_HASH)?.takeIf { NEWS_HASH_RE.matches(it) },
             )
         }
 

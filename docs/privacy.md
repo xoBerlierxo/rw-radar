@@ -10,6 +10,7 @@ The app shows this same text under Settings → Privacy. Keep the two in sync.
 
 **What we don't collect**
 - Your name, email address, phone number, contacts, location or résumé.
+- Your phone's Advertising ID. RW Radar has no ads, and Analytics ad features are turned off.
 
 **Where it's stored**
 - In Google Firebase (Firestore, Analytics and Crashlytics).

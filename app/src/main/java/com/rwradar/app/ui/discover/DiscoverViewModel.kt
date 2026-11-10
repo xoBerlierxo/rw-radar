@@ -1,5 +1,7 @@
 package com.rwradar.app.ui.discover
 
+import com.rwradar.app.BuildConfig
+
 import android.os.SystemClock
 import android.util.Log
 import androidx.lifecycle.ViewModel
@@ -39,7 +41,8 @@ class DiscoverViewModel(private val container: AppContainer) : ViewModel() {
         val entries = (dir as? LoadState.Ready)?.data.orEmpty()
         val start = SystemClock.elapsedRealtime()
         val results = DirectorySearch.apply(entries, q, s)
-        if (q.isNotEmpty()) Log.d(TAG, "Search '${q}' over ${entries.size} took ${SystemClock.elapsedRealtime() - start}ms (target < 300ms)")
+        // Debug builds only, and without the query text (M1 timing check, < 300 ms).
+        if (BuildConfig.DEBUG && q.isNotEmpty()) Log.d(TAG, "Search over ${entries.size} took ${SystemClock.elapsedRealtime() - start}ms (target < 300ms)")
         DiscoverState(query = q, sort = s, directory = dir, results = results, follows = f)
     }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), DiscoverState())
 
