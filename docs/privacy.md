@@ -17,7 +17,7 @@ The app shows this same text under Settings → Privacy. Keep the two in sync.
 **How to delete it**
 - Uninstalling the app (or clearing its data) removes the anonymous ID from your phone. Your follows can't be
   recovered after that.
-- To delete the data stored on the server for your ID, email <OWNER_CONTACT_EMAIL> and we will remove it.
+- To delete the data stored on the server for your ID, email somshekharpandey@gmail.com and we will remove it.
 
 **News and job links**
 - News headlines link to the publisher's own website. Job links open the company's own job posting.

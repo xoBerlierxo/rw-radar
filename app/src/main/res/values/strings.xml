@@ -101,8 +101,7 @@
     <string name="privacy_storage_title">Where it\'s stored</string>
     <string name="privacy_storage">In Google Firebase (Firestore, Analytics and Crashlytics).</string>
     <string name="privacy_delete_title">How to delete it</string>
-    <!-- TODO(owner): replace OWNER_CONTACT_EMAIL with the real contact address (also in docs/privacy.md). -->
-    <string name="privacy_delete">• Uninstalling the app (or clearing its data) removes the anonymous ID from your phone. Your follows can\'t be recovered after that.\n• To delete the data stored on the server for your ID, email OWNER_CONTACT_EMAIL and we will remove it.</string>
+    <string name="privacy_delete">• Uninstalling the app (or clearing its data) removes the anonymous ID from your phone. Your follows can\'t be recovered after that.\n• To delete the data stored on the server for your ID, email somshekharpandey@gmail.com and we will remove it.</string>
     <string name="privacy_links_title">News and job links</string>
     <string name="privacy_links">• News headlines link to the publisher\'s own website. Job links open the company\'s own job posting. RW Radar doesn\'t store article text.\n• The \"Get referred on ReferralWorld\" button opens the ReferralWorld Careers website. RW Radar doesn\'t share any data with ReferralWorld.</string>
 </resources>

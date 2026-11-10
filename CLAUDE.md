@@ -168,9 +168,9 @@ App tap routing: `type=jobs` opens Company detail → Openings tab and highlight
 - `REFERRALWORLD_URL`: `https://www.referralworldcareers.com/` (confirmed by owner 2026-11-10). It can be overridden with the
   `local.properties` key `rwradar.referralworldUrl`.
 - Firebase project id: `rw-radar`. The real `app/google-services.json` is in place locally (gitignored).
-- **GitHub repo is PRIVATE** (owner decision 2026-11-10, overriding PLAN D5). Private repos get 2,000 free Actions
-  minutes/month, and jobs (hourly) + news (every 30 min) = 72 runs/day, which can exceed that. Watch Settings → Billing → Actions usage.
-  If it runs out: make the repo public (D5), or merge the jobs + news cron into one workflow.
+- **GitHub repo is PUBLIC** (https://github.com/xoBerlierxo/rw-radar). It started private and was made public on 2026-11-10, per PLAN D5,
+  so the 72 cron runs/day use free Actions minutes. Everything committed is world-readable: scan for keys before every push.
+- Privacy contact (in-app privacy note + `docs/privacy.md`): somshekharpandey@gmail.com (owner-approved for publication).
 
 ## 8. Status log
 
@@ -185,7 +185,6 @@ Keep this current. One line per milestone, newest last.
 - 2026-11-10: `FIREBASE_SERVICE_ACCOUNT` secret set. Both poll workflows enabled. Seeding jobs run on Actions: 100/100 companies,
   2,266 jobs, 0 failures. First news run: 13 sources, 804 matched. A live review found 233 wrong matches (common-word names) and 5 false
   funding tags. Fixed with `aliasesOnly` + tagger guards, and Firestore was cleaned (571 news items left; only OpenAI/Anthropic are funded).
-- **Next (owner):** deploy firestore rules + indexes (Claude's REST deploy attempt was blocked by permissions), then install the debug APK and test. Replace `OWNER_CONTACT_EMAIL` in
-  `app/src/main/res/values/strings.xml` and `docs/privacy.md`.
+- **Next (owner):** deploy firestore rules + indexes (Claude's REST deploy attempt was blocked by permissions), then install the debug APK and test.
 - **Known open items:** risky common-word company names (Plane, Glance, Toast, Harness, G2, Bureau…) have blocklist
-  phrases, but the Day-9 manual news review is still needed. Actions minutes on a private repo (see §7).
+  phrases, but the Day-9 manual news review is still needed.
