@@ -4,7 +4,7 @@ kotlin = "2.3.21"
 googleServices = "4.5.0"
 crashlyticsGradle = "3.0.8"
 
-coreKtx = "1.18.0"
+coreKtx = "1.19.1"
 activityCompose = "1.13.0"
 composeBom = "2026.06.01"
 navigationCompose = "2.9.8"
