@@ -3,7 +3,7 @@
 # Regenerate after changing requirements.txt: install it in a clean Linux venv, then `pip freeze`.
 # Dependabot (.github/dependabot.yml) proposes updates as PRs.
 anyio==4.16.0
-cachecontrol==0.14.4
+cachecontrol==0.15.0
 certifi==2026.10.23
 cffi==2.1.1
 charset-normalizer==3.5.2
